@@ -1,3 +1,3 @@
 # Cheatsheets (Шпаргалки)
 
-- [Структуры данных]([data-structures.md](data-structures.md))
+[Структуры данных](data-structures.md)
