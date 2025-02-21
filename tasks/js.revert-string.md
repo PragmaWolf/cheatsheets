@@ -9,6 +9,10 @@ const test = 'Мама мыла раму';
 const result = reverseString(test); // 'умар алым амаМ';
 ```
 
+[К оглавлению](../README.md)
+
+---
+
 ## Решение 1
 Оценка алгоритма - **O(n)**
 
@@ -22,6 +26,10 @@ function reverseString(str) {
 };
 ```
 
+[К оглавлению](../README.md)
+
+---
+
 ## Решение 2
 Оценка алгоритма - **O(3n)**
 
@@ -30,3 +38,5 @@ function reverseString(str) {
   return str.split('').reverse().join('');
 };
 ```
+
+[К оглавлению](../README.md)

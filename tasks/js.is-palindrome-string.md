@@ -12,6 +12,10 @@ isPalindrome('А роза упала на лапу Азора'); // true
 isPalindrome('Мама мыла раму'); // false
 ```
 
+[К оглавлению](../README.md)
+
+---
+
 ## Решение 1
 Оценка алгоритма - **O(3n)**
 
@@ -30,6 +34,10 @@ function isPalindrome(str) {
 };
 ```
 
+[К оглавлению](../README.md)
+
+---
+
 ## Решение 2
 Оценка алгоритма - **O(5n)**
 
@@ -40,3 +48,5 @@ function isPalindrome(str) {
   return (source === reverse);
 };
 ```
+
+[К оглавлению](../README.md)

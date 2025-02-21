@@ -9,6 +9,8 @@ const test = [0, 2, 3, 4, 2, 5, 3, 4, 0, 3, 6, 8, 1, 9, 7, 1];
 const result = cleanDoubles(test); // [0, 2, 3, 4, 5, 6, 8, 1, 9, 7];
 ```
 
+[К оглавлению](../README.md)
+
 ---
 
 ## Решение 1
@@ -19,6 +21,8 @@ function cleanDoubles(arr) {
   return Array.from(new Set(arr));
 };
 ```
+
+[К оглавлению](../README.md)
 
 ---
 

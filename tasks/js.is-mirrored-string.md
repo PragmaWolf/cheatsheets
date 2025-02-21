@@ -12,6 +12,10 @@ isPalindrome('a bb a'); // true
 isPalindrome('a bba'); // false
 ```
 
+[К оглавлению](../README.md)
+
+---
+
 ## Решение 1
 Оценка алгоритма - **O(n)**
 
@@ -29,6 +33,10 @@ function isMirrored(str) {
 };
 ```
 
+[К оглавлению](../README.md)
+
+---
+
 ## Решение 2
 Оценка алгоритма - **O(3n)**
 
@@ -38,3 +46,5 @@ function isMirrored(str) {
   return (str === reverse);
 };
 ```
+
+[К оглавлению](../README.md)
