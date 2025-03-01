@@ -8,31 +8,54 @@ https://backendinterview.ru/index.html
 https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%B3%D0%BC%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F
 -->
 ### Основные модели
-- Императивное программирование
-- Декларативное программирование
-- Структурное программирование
-- Функциональное программирование
-- Логическое программирование
-- Объектно-ориентированное программирование (ООП)
-  - Компонентно-ориентированное программирование
-  - Прототипно-ориентированное программирование
-  - Агентно-ориентированное программирование
+
+[//]: # (- Императивное программирование)
+
+[//]: # (- Декларативное программирование)
+
+[//]: # (- Структурное программирование)
+
+[//]: # (- Функциональное программирование)
+
+[//]: # (- Логическое программирование)
+
+[//]: # (- Объектно-ориентированное программирование &#40;ООП&#41;)
+
+[//]: # (  - Компонентно-ориентированное программирование)
+
+[//]: # (  - Прототипно-ориентированное программирование)
+
+[//]: # (  - Агентно-ориентированное программирование)
 
 ### Подходы и приёмы
-- Структурное программирование
-- Процедурное программирование
-- Аппликативное программирование
-- Обобщённое программирование
-- Доказательное программирование
-- Порождающее программирование
-- Аспектно-ориентированное программирование (АОП)
-- Агентно-ориентированное программирование
-- Контрактное программирование
-- Рекурсия
-- Автоматное программирование
-- Событийно-ориентированное программирование
-- Компонентно-ориентированное программирование
-- Грамотное программирование
+
+[//]: # (- Структурное программирование)
+
+[//]: # (- Процедурное программирование)
+
+[//]: # (- Аппликативное программирование)
+
+[//]: # (- Обобщённое программирование)
+
+[//]: # (- Доказательное программирование)
+
+[//]: # (- Порождающее программирование)
+
+[//]: # (- Аспектно-ориентированное программирование &#40;АОП&#41;)
+
+[//]: # (- Агентно-ориентированное программирование)
+
+[//]: # (- Контрактное программирование)
+
+[//]: # (- Рекурсия)
+
+[//]: # (- Автоматное программирование)
+
+[//]: # (- Событийно-ориентированное программирование)
+
+[//]: # (- Компонентно-ориентированное программирование)
+
+[//]: # (- Грамотное программирование)
 
 ## Концепции
 - [Принцип DRY](concepts/dry.md)
@@ -47,10 +70,10 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%B3%D0%BC%D
 https://habr.com/ru/articles/811875/
 https://habr.com/ru/articles/811305/
 -->
-- Закон Деметры <!-- https://backendinterview.ru/architecture/principles.html#%D0%97%D0%B0%D0%BA%D0%BE%D0%BD-%D0%94%D0%B5%D0%BC%D0%B5%D1%82%D1%80%D1%8B -->
-- Иммутабельность <!-- https://backendinterview.ru/architecture/principles.html#%D0%98%D0%BC%D0%BC%D1%83%D1%82%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C -->
-- наследование и композиция <!-- https://backendinterview.ru/architecture/principles.html#%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D0%BE%D1%87%D0%B8%D1%82%D0%B0%D0%B9%D1%82%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8E-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B0 -->
-- Признаки плохого проекта <!-- https://backendinterview.ru/architecture/principles.html#%D0%9F%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BA%D0%B8-%D0%BF%D0%BB%D0%BE%D1%85%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0 -->
+
+[//]: # (- Иммутабельность <!-- https://backendinterview.ru/architecture/principles.html#%D0%98%D0%BC%D0%BC%D1%83%D1%82%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C -->)
+[//]: # (- наследование и композиция <!-- https://backendinterview.ru/architecture/principles.html#%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D0%BE%D1%87%D0%B8%D1%82%D0%B0%D0%B9%D1%82%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8E-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B0 -->)
+[//]: # (- Признаки плохого проекта <!-- https://backendinterview.ru/architecture/principles.html#%D0%9F%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BA%D0%B8-%D0%BF%D0%BB%D0%BE%D1%85%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0 -->)
 
 [//]: # (- Ковариантность и контрвариантность)
 <!-- https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D0%B8_%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) -->
@@ -81,73 +104,140 @@ https://medium.com/nuances-of-programming/5-%D0%B2%D0%B5%D0%B4%D1%83%D1%89%D0%B8
 https://habr.com/ru/companies/otus/articles/576766/
 https://habr.com/ru/companies/otus/articles/754712/
 -->
-- Anemic Domain Model (антипаттерн?) <!-- https://emacsway.github.io/ru/anemic-domain-model/ -->
-- N-tier: многоуровневая архитектура (N — кол-во слоёв)
-- Layered: слоистая архитектура (Onion architecture / Hexagonal Architecture)
-- Паттерн многослойной архитектуры
-- Clean Architecture: чистая архитектура
-- Event-Driven Architecture: событийно-ориентированная архитектура.
-- DDD (Data-driven development)
-- DDD (Domain-driven development) 
-- SOA (Service-Oriented Architecture) Сервис-ориентированная архитектура
-- Event Sourcing
-- Dataflow: поток данных
-- Inversion of Control,
-- Dependency Inversion,
-- Dependency Injection
-- Порты и адаптеры
-- Многоуровневая архитектура
-- Каналы и фильтры
-- Клиент — сервер
-- Модель — представление — контроллер
-- Управляемая событиями архитектура
-- Архитектура на основе микросервисов
-- MVC (Model-View-Controller)
-- MVVM (Model-View-ViewModel)
-- HMVC (Hierarchical model–view–controller)
-- MVP (Model-View-Presenter)
-- State-Model-View (SMV)
-- Двухфазная фиксация (2PC)
-- Saga
-- PageController
-- FrontController
-- ActiveRecord
-- Data Mapper
-- Делегирование (Delegation)
-- Lazy Load (Ленивая Загрузка)
-- Registry (реестр)
-- Паттерн автоматического выключения (Circuit Breaker)
-- Паттерн источника событий (Event sourcing)
-- Паттерн SideCar
-- Паттерн CQRS (Command and Query Responsibility Segregation)
-- Паттерн Rate Limiting
-- Strangler Fig
-- Паттерн Health Endpoint Monitoring
-- Реплицированные сервисы с распределением нагрузки (RLBS)
-- Load Balancer
-- Retry (exponential backoff with jitter)
-- Database per service
-- Шардинг
-- Упреждающая журнализация (Write-Ahead Log)
-- Split-Brain паттерн
-- Направленная отправка (Hinted Handoff)
-- Чтение с восстановлением (Read Repair)
-- Distributed Monolith (антипаттерн)
-- Микролиты (антипаттерн)
-- Многослойность (антипаттерн)
-- Монолит
-- Микросервисы (MSA, Microservice architecture)
-Распиливание монолита <!-- 
-https://cloud.vk.com/blog/26-osnovnyh-patternov-mikroservisnoj-razrabotki/
-https://habr.com/ru/companies/reksoft/articles/864206/
--->
-- Decomposition by Domain (Разделение по доменам)
-- Decomposition by Business Capability (Разделение по бизнес-возможностям)
-- Decomposition by Data (Разделение по данным)
-- Decomposition by UI (Разделение по пользовательскому интерфейсу)
-- Decomposition by Deployment (Разделение по развертыванию)
-- Decomposition by Communication Protocol (Разделение по протоколу коммуникации)
-- Domain-driven design
+
+[//]: # (- Anemic Domain Model &#40;антипаттерн?&#41; <!-- https://emacsway.github.io/ru/anemic-domain-model/ -->)
+
+[//]: # (- N-tier: многоуровневая архитектура &#40;N — кол-во слоёв&#41;)
+
+[//]: # (- Layered: слоистая архитектура &#40;Onion architecture / Hexagonal Architecture&#41;)
+
+[//]: # (- Паттерн многослойной архитектуры)
+
+[//]: # (- Clean Architecture: чистая архитектура)
+
+[//]: # (- Event-Driven Architecture: событийно-ориентированная архитектура.)
+
+[//]: # (- DDD &#40;Data-driven development&#41;)
+
+[//]: # (- DDD &#40;Domain-driven development&#41; )
+
+[//]: # (- SOA &#40;Service-Oriented Architecture&#41; Сервис-ориентированная архитектура)
+
+[//]: # (- Event Sourcing)
+
+[//]: # (- Dataflow: поток данных)
+
+[//]: # (- Inversion of Control,)
+
+[//]: # (- Dependency Inversion,)
+
+[//]: # (- Dependency Injection)
+
+[//]: # (- Порты и адаптеры)
+
+[//]: # (- Многоуровневая архитектура)
+
+[//]: # (- Каналы и фильтры)
+
+[//]: # (- Клиент — сервер)
+
+[//]: # (- Модель — представление — контроллер)
+
+[//]: # (- Управляемая событиями архитектура)
+
+[//]: # (- Архитектура на основе микросервисов)
+
+[//]: # (- MVC &#40;Model-View-Controller&#41;)
+
+[//]: # (- MVVM &#40;Model-View-ViewModel&#41;)
+
+[//]: # (- HMVC &#40;Hierarchical model–view–controller&#41;)
+
+[//]: # (- MVP &#40;Model-View-Presenter&#41;)
+
+[//]: # (- State-Model-View &#40;SMV&#41;)
+
+[//]: # (- Двухфазная фиксация &#40;2PC&#41;)
+
+[//]: # (- Saga)
+
+[//]: # (- PageController)
+
+[//]: # (- FrontController)
+
+[//]: # (- ActiveRecord)
+
+[//]: # (- Data Mapper)
+
+[//]: # (- Делегирование &#40;Delegation&#41;)
+
+[//]: # (- Lazy Load &#40;Ленивая Загрузка&#41;)
+
+[//]: # (- Registry &#40;реестр&#41;)
+
+[//]: # (- Паттерн автоматического выключения &#40;Circuit Breaker&#41;)
+
+[//]: # (- Паттерн источника событий &#40;Event sourcing&#41;)
+
+[//]: # (- Паттерн SideCar)
+
+[//]: # (- Паттерн CQRS &#40;Command and Query Responsibility Segregation&#41;)
+
+[//]: # (- Паттерн Rate Limiting)
+
+[//]: # (- Strangler Fig)
+
+[//]: # (- Паттерн Health Endpoint Monitoring)
+
+[//]: # (- Реплицированные сервисы с распределением нагрузки &#40;RLBS&#41;)
+
+[//]: # (- Load Balancer)
+
+[//]: # (- Retry &#40;exponential backoff with jitter&#41;)
+
+[//]: # (- Database per service)
+
+[//]: # (- Шардинг)
+
+[//]: # (- Упреждающая журнализация &#40;Write-Ahead Log&#41;)
+
+[//]: # (- Split-Brain паттерн)
+
+[//]: # (- Направленная отправка &#40;Hinted Handoff&#41;)
+
+[//]: # (- Чтение с восстановлением &#40;Read Repair&#41;)
+
+[//]: # (- Distributed Monolith &#40;антипаттерн&#41;)
+
+[//]: # (- Микролиты &#40;антипаттерн&#41;)
+
+[//]: # (- Многослойность &#40;антипаттерн&#41;)
+
+[//]: # (- Монолит)
+
+[//]: # (- Микросервисы &#40;MSA, Microservice architecture&#41;)
+
+[//]: # (Распиливание монолита <!-- )
+
+[//]: # (https://cloud.vk.com/blog/26-osnovnyh-patternov-mikroservisnoj-razrabotki/)
+
+[//]: # (https://habr.com/ru/companies/reksoft/articles/864206/)
+
+[//]: # (-->)
+
+[//]: # (- Decomposition by Domain &#40;Разделение по доменам&#41;)
+
+[//]: # (- Decomposition by Business Capability &#40;Разделение по бизнес-возможностям&#41;)
+
+[//]: # (- Decomposition by Data &#40;Разделение по данным&#41;)
+
+[//]: # (- Decomposition by UI &#40;Разделение по пользовательскому интерфейсу&#41;)
+
+[//]: # (- Decomposition by Deployment &#40;Разделение по развертыванию&#41;)
+
+[//]: # (- Decomposition by Communication Protocol &#40;Разделение по протоколу коммуникации&#41;)
+
+[//]: # (- Domain-driven design)
 - [WIP: Архитектурные шаблоны (паттерны)](patterns/architectural/architectural-patterns.md)
 - [WIP: Предметно-ориентированное проектирование (DDD, Domain-Driven Design)](patterns/architectural/domain-driven-design.md)
 
@@ -164,39 +254,71 @@ https://habr.com/ru/companies/piter/articles/275633/
 https://dzen.ru/a/ZEoLx3ca-AKQ3cQ7
 -->
 - [WIP: Паттерн Saga](patterns/microservices/saga.md)
-- Stateless Services (Сервисы без состояния)
-- Async Messaging (Асинхронный обмен сообщениями)
-- Database per Service (База данных для каждого сервиса)
-- Smart Endpoints, Dumb Pipes (Умные конечные точки, глупые каналы)
-- Consumer-Driven Contracts (Контракты, определяемые потребителем)
-- Shadow Deployment (Теневое развертывание)
-- Backends for Frontends (BFF, Бэкенды для фронтендов)
-- Sidecar (Вспомогательный сервис)
-- Retry (Повторная попытка)
-- Polyglot Persistence (Многовариантное хранение)
-- Data Sharding (Шардинг данных)
-- Command Query Responsibility Segregation (CQRS, Разделение команд и запросов)
-- Event Sourcing (Источник событий)
-- Saga Pattern (Сага)
-- Bulkhead (Отсек, Переборка)
-- Circuit Breaker (Предохранитель)
-- API Gateway (API-шлюз)
-- Service Registry (Реестр сервисов)
-???
-- Шаблон «API-композиция» (API Composition)
-- Шаблон «Поиск событий» (Event Sourcing)
-- Шаблон «Сборка пользовательского интерфейса на стороне клиента» (Client-Side UI Composition)
-- Шаблон «Сборка фрагментов страниц на стороне сервера» (Server-Side Page Fragment Composition)
-- Шаблон «Обнаружение сервисов на стороне клиента» (Client-Side Service Discovery)
-- Шаблон «Обнаружение сервисов на стороне сервера» (Server-Side Service Discovery)
-- Шаблон «Экземпляр сервиса на хост» (Service Instance Per Host)
-- Шаблон «Сине-зеленое развертывание» (Blue-Green Deployment)
-- Шаблон «Агрегация логов» (Log Aggregation)
-- Шаблон «Распределенная трассировка» (Distributed Tracing)
-- Шаблон «Проверки здоровья» (Health Check)
-- Шаблон «Посредник» («Посол», Ambassador)
-- Шаблон «Тестирование контрактов, ориентированных на потребителя» (Consumer-Driven Contract Testing)
-- Шаблон «Внешняя конфигурация» (External Configuration)
+
+[//]: # (- Stateless Services &#40;Сервисы без состояния&#41;)
+
+[//]: # (- Async Messaging &#40;Асинхронный обмен сообщениями&#41;)
+
+[//]: # (- Database per Service &#40;База данных для каждого сервиса&#41;)
+
+[//]: # (- Smart Endpoints, Dumb Pipes &#40;Умные конечные точки, глупые каналы&#41;)
+
+[//]: # (- Consumer-Driven Contracts &#40;Контракты, определяемые потребителем&#41;)
+
+[//]: # (- Shadow Deployment &#40;Теневое развертывание&#41;)
+
+[//]: # (- Backends for Frontends &#40;BFF, Бэкенды для фронтендов&#41;)
+
+[//]: # (- Sidecar &#40;Вспомогательный сервис&#41;)
+
+[//]: # (- Retry &#40;Повторная попытка&#41;)
+
+[//]: # (- Polyglot Persistence &#40;Многовариантное хранение&#41;)
+
+[//]: # (- Data Sharding &#40;Шардинг данных&#41;)
+
+[//]: # (- Command Query Responsibility Segregation &#40;CQRS, Разделение команд и запросов&#41;)
+
+[//]: # (- Event Sourcing &#40;Источник событий&#41;)
+
+[//]: # (- Saga Pattern &#40;Сага&#41;)
+
+[//]: # (- Bulkhead &#40;Отсек, Переборка&#41;)
+
+[//]: # (- Circuit Breaker &#40;Предохранитель&#41;)
+
+[//]: # (- API Gateway &#40;API-шлюз&#41;)
+
+[//]: # (- Service Registry &#40;Реестр сервисов&#41;)
+[//]: # (???)
+
+[//]: # (- Шаблон "API-композиция" &#40;API Composition&#41;)
+
+[//]: # (- Шаблон "Поиск событий" &#40;Event Sourcing&#41;)
+
+[//]: # (- Шаблон "Сборка пользовательского интерфейса на стороне клиента" &#40;Client-Side UI Composition&#41;)
+
+[//]: # (- Шаблон "Сборка фрагментов страниц на стороне сервера" &#40;Server-Side Page Fragment Composition&#41;)
+
+[//]: # (- Шаблон "Обнаружение сервисов на стороне клиента" &#40;Client-Side Service Discovery&#41;)
+
+[//]: # (- Шаблон "Обнаружение сервисов на стороне сервера" &#40;Server-Side Service Discovery&#41;)
+
+[//]: # (- Шаблон "Экземпляр сервиса на хост" &#40;Service Instance Per Host&#41;)
+
+[//]: # (- Шаблон "Сине-зеленое развертывание" &#40;Blue-Green Deployment&#41;)
+
+[//]: # (- Шаблон "Агрегация логов" &#40;Log Aggregation&#41;)
+
+[//]: # (- Шаблон "Распределенная трассировка" &#40;Distributed Tracing&#41;)
+
+[//]: # (- Шаблон "Проверки здоровья" &#40;Health Check&#41;)
+
+[//]: # (- Шаблон "Посредник" &#40;"Посол", Ambassador&#41;)
+
+[//]: # (- Шаблон "Тестирование контрактов, ориентированных на потребителя" &#40;Consumer-Driven Contract Testing&#41;)
+
+[//]: # (- Шаблон "Внешняя конфигурация" &#40;External Configuration&#41;)
 
 ### Паттерны проектирования
 <!--
