@@ -3,8 +3,38 @@
 https://backendinterview.ru/index.html
 -->
 
-## Концепции
+## Парадигмы
+<!--
+https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%B3%D0%BC%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F
+-->
+### Основные модели
+- Императивное программирование
+- Декларативное программирование
+- Структурное программирование
+- Функциональное программирование
+- Логическое программирование
+- Объектно-ориентированное программирование (ООП)
+  - Компонентно-ориентированное программирование
+  - Прототипно-ориентированное программирование
+  - Агентно-ориентированное программирование
 
+### Подходы и приёмы
+- Структурное программирование
+- Процедурное программирование
+- Аппликативное программирование
+- Обобщённое программирование
+- Доказательное программирование
+- Порождающее программирование
+- Аспектно-ориентированное программирование (АОП)
+- Агентно-ориентированное программирование
+- Контрактное программирование
+- Рекурсия
+- Автоматное программирование
+- Событийно-ориентированное программирование
+- Компонентно-ориентированное программирование
+- Грамотное программирование
+
+## Концепции
 - [Принцип DRY](concepts/dry.md)
 - [Принципы KISS](concepts/kiss.md)
 - [Принципы SOLID](concepts/solid.md)
@@ -12,26 +42,112 @@ https://backendinterview.ru/index.html
 - [Паттерны GRASP](concepts/grasp.md)
 - [Паттерны GoF](concepts/gof.md)
 - [Требования ACID](concepts/acid.md)
+- [Закон Деметры](concepts/lod.md)
 <!--
 https://habr.com/ru/articles/811875/
 https://habr.com/ru/articles/811305/
 -->
+- Закон Деметры <!-- https://backendinterview.ru/architecture/principles.html#%D0%97%D0%B0%D0%BA%D0%BE%D0%BD-%D0%94%D0%B5%D0%BC%D0%B5%D1%82%D1%80%D1%8B -->
+- Иммутабельность <!-- https://backendinterview.ru/architecture/principles.html#%D0%98%D0%BC%D0%BC%D1%83%D1%82%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C -->
+- наследование и композиция <!-- https://backendinterview.ru/architecture/principles.html#%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D0%BE%D1%87%D0%B8%D1%82%D0%B0%D0%B9%D1%82%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8E-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B0 -->
+- Признаки плохого проекта <!-- https://backendinterview.ru/architecture/principles.html#%D0%9F%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BA%D0%B8-%D0%BF%D0%BB%D0%BE%D1%85%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0 -->
 
 [//]: # (- Ковариантность и контрвариантность)
 <!-- https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D0%B8_%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) -->
 
-## Структуры данных
-
-- [Структуры данных](data-structures/data-structures.md)
-
-## Алгоритмы
-- [WIP: Big O. Оценка сложности алгоритмов](algorithms/big-o.md)
-
-[//]: # (- Алгоритмы сортировки)
-<!-- https://blog.skillfactory.ru/sorting-algorithm/ -->
+[//]: # (https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%BC_%D1%85%D1%83%D0%B6%D0%B5,_%D1%82%D0%B5%D0%BC_%D0%BB%D1%83%D1%87%D1%88%D0%B5)
 
 ## Паттерны/шаблоны
 ### Архитектурные паттерны
+<!--
+https://citforum.ru/SE/project/pattern/
+https://habr.com/ru/companies/alconost/articles/522662/
+https://habr.com/ru/articles/871500/
+https://systems.education/wis_ddd_architectural_patterns
+https://tproger.ru/translations/top-5-arhitekturnyh-patternov-dlja-raspredeljonnyh-sistem
+https://blog.skillfactory.ru/glossary/pattern/
+https://vk.com/@testers-ot-mvc-do-eda
+https://proglib.io/p/7-arhitekturnyh-patternov-kotorye-dolzhen-znat-kazhdyy-programmist-2023-05-22
+https://tproger.ru/translations/top-5-arhitekturnyh-patternov-dlja-raspredeljonnyh-sistem
+https://tproger.ru/articles/topovye-patterny-dlya-razrabotki-arhitektury-po
+https://tproger.ru/articles/monolit-ili-mikroservisy--kak-vybrat-arhitekturu-dlya-novogo-proekta
+https://habr.com/ru/companies/serverspace/articles/692916/
+https://academy.mediasoft.team/article/patterny-proektirovaniya-dlya-chego-nuzhny-kakimi-byvayut-i-chem-otlichayutsya-ot-arkhitekturnykh/
+https://systems.education/software_styles_and_patterns_with_cheatsheet
+https://habr.com/ru/articles/856452/
+https://bigdataschool.ru/blog/architecture-patterns-for-distributed-systems.html
+https://proglib.io/p/9-osnovnyh-patternov-dlya-proektirovaniya-raspredelennyh-sistem-2024-07-30
+https://medium.com/nuances-of-programming/5-%D0%B2%D0%B5%D0%B4%D1%83%D1%89%D0%B8%D1%85-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D1%85-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC-b67e9805fee8
+https://habr.com/ru/companies/otus/articles/576766/
+https://habr.com/ru/companies/otus/articles/754712/
+-->
+- Anemic Domain Model (антипаттерн?) <!-- https://emacsway.github.io/ru/anemic-domain-model/ -->
+- N-tier: многоуровневая архитектура (N — кол-во слоёв)
+- Layered: слоистая архитектура (Onion architecture / Hexagonal Architecture)
+- Паттерн многослойной архитектуры
+- Clean Architecture: чистая архитектура
+- Event-Driven Architecture: событийно-ориентированная архитектура.
+- DDD (Data-driven development)
+- DDD (Domain-driven development) 
+- SOA (Service-Oriented Architecture) Сервис-ориентированная архитектура
+- Event Sourcing
+- Dataflow: поток данных
+- Inversion of Control,
+- Dependency Inversion,
+- Dependency Injection
+- Порты и адаптеры
+- Многоуровневая архитектура
+- Каналы и фильтры
+- Клиент — сервер
+- Модель — представление — контроллер
+- Управляемая событиями архитектура
+- Архитектура на основе микросервисов
+- MVC (Model-View-Controller)
+- MVVM (Model-View-ViewModel)
+- HMVC (Hierarchical model–view–controller)
+- MVP (Model-View-Presenter)
+- State-Model-View (SMV)
+- Двухфазная фиксация (2PC)
+- Saga
+- PageController
+- FrontController
+- ActiveRecord
+- Data Mapper
+- Делегирование (Delegation)
+- Lazy Load (Ленивая Загрузка)
+- Registry (реестр)
+- Паттерн автоматического выключения (Circuit Breaker)
+- Паттерн источника событий (Event sourcing)
+- Паттерн SideCar
+- Паттерн CQRS (Command and Query Responsibility Segregation)
+- Паттерн Rate Limiting
+- Strangler Fig
+- Паттерн Health Endpoint Monitoring
+- Реплицированные сервисы с распределением нагрузки (RLBS)
+- Load Balancer
+- Retry (exponential backoff with jitter)
+- Database per service
+- Шардинг
+- Упреждающая журнализация (Write-Ahead Log)
+- Split-Brain паттерн
+- Направленная отправка (Hinted Handoff)
+- Чтение с восстановлением (Read Repair)
+- Distributed Monolith (антипаттерн)
+- Микролиты (антипаттерн)
+- Многослойность (антипаттерн)
+- Монолит
+- Микросервисы (MSA, Microservice architecture)
+Распиливание монолита <!-- 
+https://cloud.vk.com/blog/26-osnovnyh-patternov-mikroservisnoj-razrabotki/
+https://habr.com/ru/companies/reksoft/articles/864206/
+-->
+- Decomposition by Domain (Разделение по доменам)
+- Decomposition by Business Capability (Разделение по бизнес-возможностям)
+- Decomposition by Data (Разделение по данным)
+- Decomposition by UI (Разделение по пользовательскому интерфейсу)
+- Decomposition by Deployment (Разделение по развертыванию)
+- Decomposition by Communication Protocol (Разделение по протоколу коммуникации)
+- Domain-driven design
 - [WIP: Архитектурные шаблоны (паттерны)](patterns/architectural/architectural-patterns.md)
 - [WIP: Предметно-ориентированное проектирование (DDD, Domain-Driven Design)](patterns/architectural/domain-driven-design.md)
 
@@ -39,8 +155,48 @@ https://habr.com/ru/articles/811305/
 <!--
 https://habr.com/ru/companies/slurm/articles/679906/
 https://habr.com/ru/companies/slurm/articles/681326/
+https://proglib.io/p/18-osnovnyh-patternov-mikroservisnoy-arhitektury-2024-07-23
+https://cloud.vk.com/blog/26-osnovnyh-patternov-mikroservisnoj-razrabotki/
+https://systems.education/microservices-architecture-pattern
+https://habr.com/ru/companies/reksoft/articles/864206/
+https://habr.com/ru/companies/reksoft/articles/875270/
+https://habr.com/ru/companies/piter/articles/275633/
+https://dzen.ru/a/ZEoLx3ca-AKQ3cQ7
 -->
 - [WIP: Паттерн Saga](patterns/microservices/saga.md)
+- Stateless Services (Сервисы без состояния)
+- Async Messaging (Асинхронный обмен сообщениями)
+- Database per Service (База данных для каждого сервиса)
+- Smart Endpoints, Dumb Pipes (Умные конечные точки, глупые каналы)
+- Consumer-Driven Contracts (Контракты, определяемые потребителем)
+- Shadow Deployment (Теневое развертывание)
+- Backends for Frontends (BFF, Бэкенды для фронтендов)
+- Sidecar (Вспомогательный сервис)
+- Retry (Повторная попытка)
+- Polyglot Persistence (Многовариантное хранение)
+- Data Sharding (Шардинг данных)
+- Command Query Responsibility Segregation (CQRS, Разделение команд и запросов)
+- Event Sourcing (Источник событий)
+- Saga Pattern (Сага)
+- Bulkhead (Отсек, Переборка)
+- Circuit Breaker (Предохранитель)
+- API Gateway (API-шлюз)
+- Service Registry (Реестр сервисов)
+???
+- Шаблон «API-композиция» (API Composition)
+- Шаблон «Поиск событий» (Event Sourcing)
+- Шаблон «Сборка пользовательского интерфейса на стороне клиента» (Client-Side UI Composition)
+- Шаблон «Сборка фрагментов страниц на стороне сервера» (Server-Side Page Fragment Composition)
+- Шаблон «Обнаружение сервисов на стороне клиента» (Client-Side Service Discovery)
+- Шаблон «Обнаружение сервисов на стороне сервера» (Server-Side Service Discovery)
+- Шаблон «Экземпляр сервиса на хост» (Service Instance Per Host)
+- Шаблон «Сине-зеленое развертывание» (Blue-Green Deployment)
+- Шаблон «Агрегация логов» (Log Aggregation)
+- Шаблон «Распределенная трассировка» (Distributed Tracing)
+- Шаблон «Проверки здоровья» (Health Check)
+- Шаблон «Посредник» («Посол», Ambassador)
+- Шаблон «Тестирование контрактов, ориентированных на потребителя» (Consumer-Driven Contract Testing)
+- Шаблон «Внешняя конфигурация» (External Configuration)
 
 ### Паттерны проектирования
 <!--
@@ -48,11 +204,11 @@ https://habr.com/ru/articles/804339/
 https://habr.com/ru/articles/716412/
 https://backendinterview.ru/architecture/gof.html
 https://citforum.ru/SE/project/pattern/
+https://doka.guide/tools/architecture-and-design-patterns/
 Gangs of Four (GoF) Design Patterns
 -->
 
-**Паттерны GoF**
-
+#### Паттерны GoF
 - [WIP: GoF: Поведенческий: Цепочка обязанностей (Chain of Responsibility)](patterns/design/gof.behavioral.chain-of-responsibility.md)
 - [WIP: GoF: Поведенческий: Команда (Command)](patterns/design/gof.behavioral.command.md)
 - [WIP: GoF: Поведенческий: Итератор (iterator)](patterns/design/gof.behavioral.iterator.md)
@@ -63,13 +219,11 @@ Gangs of Four (GoF) Design Patterns
 - [WIP: GoF: Поведенческий: Стратегия (Strategy)](patterns/design/gof.behavioral.strategy.md)
 - [WIP: GoF: Поведенческий: Шаблонный метод (Template Method)](patterns/design/gof.behavioral.template-method.md)
 - [WIP: GoF: Поведенческий: Посетитель (Visitor)](patterns/design/gof.behavioral.visitor.md)
-
 - [WIP: GoF: Порождающий: Абстрактная Фабрика (Abstract Factory)](patterns/design/gof.generative.abstract-factory.md)
 - [WIP: GoF: Порождающий: Строитель (Builder)](patterns/design/gof.generative.builder.md)
 - [WIP: GoF: Порождающий: Фабрика (Factory, Factory Method)](patterns/design/gof.generative.factory-method.md)
 - [WIP: GoF: Порождающий: Прототип (Prototype)](patterns/design/gof.generative.prototype.md)
 - [WIP: GoF: Порождающий: Одиночка (Singleton)](patterns/design/gof.generative.singleton.md)
-
 - [WIP: GoF: Структурный: Адаптер (Adapter)](patterns/design/gof.structural.adapter.md)
 - [WIP: GoF: Структурный: Мост (Bridge)](patterns/design/gof.structural.bridge.md)
 - [WIP: GoF: Структурный: Компоновщик (Composite)](patterns/design/gof.structural.composite.md)
@@ -78,8 +232,7 @@ Gangs of Four (GoF) Design Patterns
 - [WIP: GoF: Структурный: Легковес (Flyweight)](patterns/design/gof.structural.flyweight.md)
 - [WIP: GoF: Структурный: Заместитель (Proxy)](patterns/design/gof.structural.proxy.md)
 
-**Паттерны GRASP**
-
+#### Паттерны GRASP
 - [WIP: GRASP: Контроллер (Controller)](patterns/design/grasp.controller.md)
 - [WIP: GRASP: Создатель (Creator)](patterns/design/grasp.creator.md)
 - [WIP: GRASP: Высокое зацепление (High Cohesion)](patterns/design/grasp.high-cohesion.md)
@@ -97,6 +250,16 @@ https://gist.github.com/maestrow/594fd9aee859c809b043
 https://habr.com/ru/articles/316836/
 https://docs.nestjs.com/
 -->
+
+## Структуры данных
+
+- [Структуры данных](data-structures/data-structures.md)
+
+## Алгоритмы
+- [WIP: Big O. Оценка сложности алгоритмов](algorithms/big-o.md)
+
+[//]: # (- Алгоритмы сортировки)
+<!-- https://blog.skillfactory.ru/sorting-algorithm/ -->
 
 ## Код:
 - [Внедрение зависимостей (dependency-injection)](code/dependency-injection.md)
