@@ -5,7 +5,7 @@ https://backendinterview.ru/index.html
 
 ## Парадигмы
 
-> [!IMPORTANT]
+> [!TIP]
 > Компьютер хорошо выполняет инструкции, а не читает ваши мысли.
 
 <!--
@@ -63,7 +63,7 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%B3%D0%BC%D
 
 ## Концепции
 
-> [!IMPORTANT]
+> [!TIP]
 > Пишите код так, как будто поддерживать его будет склонный к насилию психопат, который знает, где вы живёте (c) Джон Ф. Вудс
 
 - [Принцип DRY](concepts/dry.md)
@@ -74,23 +74,54 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%B3%D0%BC%D
 - [Паттерны GoF](concepts/gof.md)
 - [Требования ACID](concepts/acid.md)
 - [Закон Деметры](concepts/lod.md)
+- [Подход MIT](concepts/mit.md)
+- [Подход "Чем хуже, тем лучше"](concepts/worse-is-better.md)
+- [Ковариантность и контрвариантность](concepts/covariance-and-contravariance.md)
+- [Иммутабельность](concepts/immutability.md)
+- [WIP: Абстракция](concepts/abstraction.md)
+- [WIP: Инкапсуляция](concepts/encapsulation.md)
+- [WIP: Полиморфизм](concepts/polymorphism.md)
+- [Наследование](concepts/inheritance.md)
+- [Композиция](concepts/composition.md)
+- [WIP: Агрегирование](concepts/aggregation.md)
+<!-- https://ru.wikipedia.org/wiki/%D0%90%D0%B3%D1%80%D0%B5%D0%B3%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) -->
+<!-- 
+https://backendinterview.ru/architecture/principles.html#%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D0%BE%D1%87%D0%B8%D1%82%D0%B0%D0%B9%D1%82%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8E-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B0 
+https://ru.hexlet.io/courses/js-classes/lessons/composition-over-inheritance/theory_unit
+https://devrating.org/ru/content/inheritance-vs-composition
+https://ru.stackoverflow.com/questions/870046/%D0%A7%D0%B5%D0%BC-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B0%D0%B5%D1%82%D1%81%D1%8F-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F-%D0%BE%D1%82-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F
+https://habr.com/ru/companies/otus/articles/578516/
+https://habr.com/ru/articles/325478/
+-->
+- [WIP: Идемпотентность](concepts/idempotency.md)
+- [Реентерабельность](concepts/reentrant.md)
+
 <!--
-https://habr.com/ru/articles/811875/
-https://habr.com/ru/articles/811305/
+https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82%D1%81%D0%BA%D0%B8%D1%85-%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D0%BD%D0%BE%D0%BC-%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5-8c2cb31fcda4
 -->
 
-[//]: # (- Иммутабельность <!-- https://backendinterview.ru/architecture/principles.html#%D0%98%D0%BC%D0%BC%D1%83%D1%82%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C -->)
-[//]: # (- наследование и композиция <!-- https://backendinterview.ru/architecture/principles.html#%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D0%BE%D1%87%D0%B8%D1%82%D0%B0%D0%B9%D1%82%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8E-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B0 -->)
 [//]: # (- Признаки плохого проекта <!-- https://backendinterview.ru/architecture/principles.html#%D0%9F%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BA%D0%B8-%D0%BF%D0%BB%D0%BE%D1%85%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0 -->)
 
-[//]: # (- Ковариантность и контрвариантность)
-<!-- https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D0%B8_%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) -->
+## Структуры данных
 
-[//]: # (https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%BC_%D1%85%D1%83%D0%B6%D0%B5,_%D1%82%D0%B5%D0%BC_%D0%BB%D1%83%D1%87%D1%88%D0%B5)
+> [!TIP]
+> Вот вы говорите "электронный документооборот". А вы знаете сколько из-за него ежегодно вырубают бинарных деревьев?
+
+- [Структуры данных](data-structures/data-structures.md)
+
+## Алгоритмы
+
+> [!TIP]
+> Вы никогда не задумывались, какое количество психических сил потрачено разработчиками на попытки понять различие между алгоритмом и программой...
+
+- [WIP: Big O. Оценка сложности алгоритмов](algorithms/big-o.md)
+
+[//]: # (- Алгоритмы сортировки)
+<!-- https://blog.skillfactory.ru/sorting-algorithm/ -->
 
 ## Паттерны/шаблоны
 
-> [!IMPORTANT]
+> [!TIP]
 > Всегда мало времени, чтобы разработать проект, но его всегда хватает, чтобы сделать в 2 раза больше багов.
 
 ### Архитектурные паттерны
@@ -385,26 +416,9 @@ https://habr.com/ru/articles/316836/
 https://docs.nestjs.com/
 -->
 
-## Структуры данных
-
-> [!IMPORTANT]
-> Вот вы говорите "электронный документооборот". А вы знаете сколько из-за него ежегодно вырубают бинарных деревьев?
-
-- [Структуры данных](data-structures/data-structures.md)
-
-## Алгоритмы
-
-> [!IMPORTANT]
-> Вы никогда не задумывались, какое количество психических сил потрачено разработчиками на попытки понять различие между алгоритмом и программой...
-
-- [WIP: Big O. Оценка сложности алгоритмов](algorithms/big-o.md)
-
-[//]: # (- Алгоритмы сортировки)
-<!-- https://blog.skillfactory.ru/sorting-algorithm/ -->
-
 ## Код:
 
-> [!IMPORTANT]
+> [!TIP]
 > Работа программиста и шамана имеет много общего — оба бормочут непонятные слова, совершают непонятные действия и не могут объяснить, как оно работает.
 
 - [Внедрение зависимостей (dependency-injection)](code/dependency-injection.md)
@@ -421,7 +435,7 @@ https://habr.com/ru/companies/timeweb/articles/666470/
 
 ## SQL, Базы данных
 
-> [!IMPORTANT]
+> [!TIP]
 > SQL-запрос заходит в бар, подходит к двум столам и спрашивает: "можно присоединиться?"
 
 - [WIP: Шардирование баз данных](sql-and-db/db-sharding.md)
@@ -466,14 +480,14 @@ https://habr.com/ru/companies/avito/articles/680522/
 
 ## Управление
 
-> [!IMPORTANT]
+> [!TIP]
 > Один монитор — обычный программист, два монитора — продвинутый программист, три монитора — системный программист, четыре монитора — охранник.
 
 - [WIP: Метрики сотрудников](management/employee-metrics.md)
 
 # Вопросы собеседований
 
-> [!IMPORTANT]
+> [!TIP]
 > Есть два способа написать сложную программу: либо сделать ее настолько простой, что будет казаться, что она проста как два плюс два, либо сделать ее настолько сложной, что невозможно найти ошибки
 
 <!--
