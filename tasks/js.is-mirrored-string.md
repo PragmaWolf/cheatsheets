@@ -1,4 +1,5 @@
-# JavaScript. Проверить, является ли строка зеркальной
+**[Вопросы собеседований](../../README.md#вопросы-собеседований) :: [JavaScript](../../README.md#javascript-1) ::**
+# Проверить, является ли строка зеркальной
 
 Дана строка:
 ```javascript
@@ -12,7 +13,7 @@ isPalindrome('a bb a'); // true
 isPalindrome('a bba'); // false
 ```
 
-[К оглавлению](../README.md)
+[К оглавлению](../README.md#javascript-1)
 
 ---
 
@@ -33,7 +34,7 @@ function isMirrored(str) {
 };
 ```
 
-[К оглавлению](../README.md)
+[К оглавлению](../README.md#javascript-1)
 
 ---
 
@@ -47,4 +48,4 @@ function isMirrored(str) {
 };
 ```
 
-[К оглавлению](../README.md)
+[К оглавлению](../README.md#javascript-1)

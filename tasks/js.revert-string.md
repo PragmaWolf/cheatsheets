@@ -1,4 +1,5 @@
-# JavaScript. Перевернуть строку
+**[Вопросы собеседований](../../README.md#вопросы-собеседований) :: [JavaScript](../../README.md#javascript-1) ::**
+# Перевернуть строку
 
 Дана строка:
 ```javascript
@@ -9,7 +10,7 @@ const test = 'Мама мыла раму';
 const result = reverseString(test); // 'умар алым амаМ';
 ```
 
-[К оглавлению](../README.md)
+[К оглавлению](../README.md#javascript-1)
 
 ---
 
@@ -26,7 +27,7 @@ function reverseString(str) {
 };
 ```
 
-[К оглавлению](../README.md)
+[К оглавлению](../README.md#javascript-1)
 
 ---
 
@@ -39,4 +40,4 @@ function reverseString(str) {
 };
 ```
 
-[К оглавлению](../README.md)
+[К оглавлению](../README.md#javascript-1)
