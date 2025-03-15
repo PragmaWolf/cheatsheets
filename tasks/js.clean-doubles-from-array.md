@@ -1,4 +1,4 @@
-**[Вопросы собеседований](../../README.md#вопросы-собеседований) :: [JavaScript](../../README.md#javascript-1) ::**
+**[Вопросы собеседований](../../README.md#tasks) :: [JavaScript](../../README.md#tasks-javascript) ::**
 # Очистить массив от повторов
 
 Дан массив вида:
@@ -10,7 +10,7 @@ const test = [0, 2, 3, 4, 2, 5, 3, 4, 0, 3, 6, 8, 1, 9, 7, 1];
 const result = cleanDoubles(test); // [0, 2, 3, 4, 5, 6, 8, 1, 9, 7];
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)
 
 ---
 
@@ -23,7 +23,7 @@ function cleanDoubles(arr) {
 };
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)
 
 ---
 
@@ -38,4 +38,4 @@ function cleanDoubles(arr) {
 };
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)

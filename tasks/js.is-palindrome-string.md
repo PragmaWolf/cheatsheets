@@ -1,4 +1,4 @@
-**[Вопросы собеседований](../../README.md#вопросы-собеседований) :: [JavaScript](../../README.md#javascript-1) ::**
+**[Вопросы собеседований](../../README.md#tasks) :: [JavaScript](../../README.md#tasks-javascript) ::**
 # Проверить, является ли строка палиндромом
 
 > Палинтром - это слово или фраза, которые одинаково читаются слева направо и справа налево.
@@ -13,7 +13,7 @@ isPalindrome('А роза упала на лапу Азора'); // true
 isPalindrome('Мама мыла раму'); // false
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)
 
 ---
 
@@ -35,7 +35,7 @@ function isPalindrome(str) {
 };
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)
 
 ---
 
@@ -50,4 +50,4 @@ function isPalindrome(str) {
 };
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)

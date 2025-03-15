@@ -1,4 +1,4 @@
-**[Вопросы собеседований](../../README.md#вопросы-собеседований) :: [JavaScript](../../README.md#javascript-1) ::**
+**[Вопросы собеседований](../../README.md#tasks) :: [JavaScript](../../README.md#tasks-javascript) ::**
 # Порядок выполнения 2 (Promise и setTimeout)
 
 Дан следующий скрипт:
@@ -13,7 +13,7 @@ setTimeout(()=> console.log(7), 0);
 ```
 Опишите каков будет вывод этого скрипта в консоли, после исполнения.
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)
 
 ---
 
@@ -46,4 +46,4 @@ setTimeout(()=> console.log(7), 0);
 1. Выведется `4` как результат завершения микротаски обработки Promise - `.then(() => console.log(4))`.
 1. И наконец выведется `7` как результат обработки последней макротаски `setTimeout(()=> console.log(7), 0)`.
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)

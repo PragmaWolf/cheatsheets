@@ -1,4 +1,4 @@
-**[Вопросы собеседований](../../README.md#вопросы-собеседований) :: [JavaScript](../../README.md#javascript-1) ::**
+**[Вопросы собеседований](../../README.md#tasks) :: [JavaScript](../../README.md#tasks-javascript) ::**
 # Проверить, является ли строка зеркальной
 
 Дана строка:
@@ -13,7 +13,7 @@ isPalindrome('a bb a'); // true
 isPalindrome('a bba'); // false
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)
 
 ---
 
@@ -34,7 +34,7 @@ function isMirrored(str) {
 };
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)
 
 ---
 
@@ -48,4 +48,4 @@ function isMirrored(str) {
 };
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)

@@ -1,4 +1,4 @@
-**[Вопросы собеседований](../../README.md#вопросы-собеседований) :: [JavaScript](../../README.md#javascript-1) ::**
+**[Вопросы собеседований](../../README.md#tasks) :: [JavaScript](../../README.md#tasks-javascript) ::**
 # Перевернуть строку
 
 Дана строка:
@@ -10,7 +10,7 @@ const test = 'Мама мыла раму';
 const result = reverseString(test); // 'умар алым амаМ';
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)
 
 ---
 
@@ -27,7 +27,7 @@ function reverseString(str) {
 };
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)
 
 ---
 
@@ -40,4 +40,4 @@ function reverseString(str) {
 };
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)

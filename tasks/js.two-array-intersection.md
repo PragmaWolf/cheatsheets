@@ -1,4 +1,4 @@
-**[Вопросы собеседований](../../README.md#вопросы-собеседований) :: [JavaScript](../../README.md#javascript-1) ::**
+**[Вопросы собеседований](../../README.md#tasks) :: [JavaScript](../../README.md#tasks-javascript) ::**
 # Найти пересечение двух массивов
 
 Даны два массива, произвольной длины и содержания. Например:
@@ -11,7 +11,7 @@ const arr2 = [9, 4, 9, 8, 4];
 const result = [9, 4, 8];
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)
 
 ---
 
@@ -41,7 +41,7 @@ const intersection = (arrOne, arrTwo) => {
 };
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)
 
 ---
 
@@ -57,4 +57,4 @@ const intersection = (arr1, arr2) => {
 };
 ```
 
-[К оглавлению](../README.md#javascript-1)
+[К оглавлению](../README.md#tasks-javascript)

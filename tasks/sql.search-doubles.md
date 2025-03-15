@@ -1,9 +1,9 @@
-**[Вопросы собеседований](../../README.md#вопросы-собеседований) :: [SQL](../../README.md#sql) ::**
+**[Вопросы собеседований](../../README.md#tasks) :: [SQL](../../README.md#tasks-sql) ::**
 # Выбрать дублирующиеся данные
 
 Необходимо выбрать из таблицы дублирующиеся записи.
 
-[К оглавлению](../README.md#sql)
+[К оглавлению](../README.md#tasks-sql)
 
 ---
 
@@ -15,7 +15,7 @@ FROM table_name
 HAVING cnt > 1;
 ```
 
-[К оглавлению](../README.md#sql)
+[К оглавлению](../README.md#tasks-sql)
 
 ---
 
@@ -28,4 +28,4 @@ GROUP BY column_name
 HAVING cnt > 1;
 ```
 
-[К оглавлению](../README.md#sql)
+[К оглавлению](../README.md#tasks-sql)
