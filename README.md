@@ -1,4 +1,4 @@
-# Programming Cheatsheets (Шпаргалки по программированию)
+# Programming Cheatsheets (Шпаргалки по программированию) <a name="pagestart"></a>
 
 > [!TIP]
 > Если вы что-то не можете объяснить шестилетнему ребёнку, вы сами этого не понимаете (c) Альберт Эйнштейн
@@ -8,7 +8,7 @@ https://backendinterview.ru/index.html
 -->
 
 ---
-## Парадигмы
+## Парадигмы <a name="paradigms"></a>
 
 > [!TIP]
 > Компьютер хорошо выполняет инструкции, а не читает ваши мысли.
@@ -16,7 +16,7 @@ https://backendinterview.ru/index.html
 <!--
 https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%B3%D0%BC%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F
 -->
-### Основные модели
+### Основные модели <a name="paradigms-models"></a>
 - WIP: [Императивное программирование](paradigms/imperative.md)
 - WIP: [Декларативное программирование](paradigms/declarative.md)
 - WIP: [Структурное программирование](paradigms/structural.md)
@@ -28,7 +28,7 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%B3%D0%BC%D
   - WIP: [Агентно-ориентированное программирование](paradigms/agent-oriented.md)
 - WIP: [Экстремальное программирование](paradigms/extreme.md)
 
-### Подходы и приёмы
+### Подходы и приёмы <a name="paradigms-techniques"></a>
 - WIP: [Процедурное программирование](paradigms/procedural.md)
 - WIP: [Аппликативное программирование](paradigms/applicative.md)
 - WIP: [Обобщённое программирование](paradigms/generalized.md)
@@ -44,7 +44,7 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%B3%D0%BC%D
 - WIP: [Грамотное программирование](paradigms/literate.md)
 
 ---
-## Концепции, понятия, термины
+## Концепции, понятия, термины <a name="concepts"></a>
 
 > [!TIP]
 > Пишите код так, как будто поддерживать его будет склонный к насилию психопат, который знает, где вы живёте (c) Джон Ф. Вудс
@@ -82,7 +82,7 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 - WIP: [Признаки плохого проекта](concepts/bad-project.md)
 
 ---
-## Структуры данных
+## Структуры данных <a name="data-structures"></a>
 
 > [!TIP]
 > Вот вы говорите "электронный документооборот". А вы знаете сколько из-за него ежегодно вырубают бинарных деревьев?
@@ -101,7 +101,7 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D1%8F%D0%B7%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA
 https://www.bigocheatsheet.com/
 -->
-### Описание структур данных
+### Описание структур данных <a name="data-structures-description"></a>
 - [Массивы (Arrays)](data-structures/arrays.md)
   - [Динамические массивы (Dynamic arrays)](data-structures/arrays.dynamic.md)
   - [Ассоциативные массивы (Associative Arrays)](data-structures/arrays.associative.md)
@@ -134,7 +134,7 @@ https://www.bigocheatsheet.com/
 - [Кучи (Heaps)](data-structures/heaps.md)
 
 ---
-## Алгоритмы
+## Алгоритмы <a name="algorithms"></a>
 
 > [!TIP]
 > Вы никогда не задумывались, какое количество психических сил потрачено разработчиками на попытки понять различие между алгоритмом и программой...
@@ -159,7 +159,7 @@ https://blog.skillfactory.ru/glossary/algoritm/
 -->
 - WIP: [Big O. Оценка сложности алгоритмов](algorithms/big-o.md)
 
-### Алгоритмы сортировки
+### Алгоритмы сортировки <a name="algorithms-sort"></a>
 - WIP: [Быстрая сортировка](algorithms/sort/quick.md)
 - WIP: [Параллельная кеш-независимая сортировка](algorithms/sort/parallel-cache-independent.md)
 - WIP: [Пузырьковая сортировка](algorithms/sort/bubble.md)
@@ -169,19 +169,19 @@ https://blog.skillfactory.ru/glossary/algoritm/
 - WIP: [Сортировка кучей](algorithms/sort/heap.md)
 - WIP: [Сортировка слиянием](algorithms/sort/merge.md)
 
-### Поисковые алгоритмы
+### Поисковые алгоритмы <a name="algorithms-search"></a>
 - WIP: [Бинарный поиск](algorithms/search/binary.md)
 - WIP: [Линейный поиск](algorithms/search/linear.md)
 - WIP: [Поиск в массиве](algorithms/search/in-array.md)
 
-### Алгоритмы работы с данными
+### Алгоритмы работы с данными <a name="algorithms-data"></a>
 - WIP: [Обход связного списка](algorithms/data/linked-list-traversal.md)
 - WIP: [Операции с очередью](algorithms/data/queue-operations.md)
 - WIP: [Операции со стэком](algorithms/data/stack-operations.md)
 - WIP: [Работа с хеш-таблицами](algorithms/data/hash-table-operations.md)
 - WIP: [Разворачивание однонаправленного списка](algorithms/data/single-linked-list-reversal.md)
 
-### Графы и деревья
+### Графы и деревья <a name="algorithms-graph-or-tree"></a>
 - WIP: [Алгоритм Дейкстры](algorithms/graph-or-tree/dijkstra-algorithm.md)
 - WIP: [Алгоритм Флойда-Уоршелла](algorithms/graph-or-tree/floyd-warshall-algorithm.md)
 - WIP: [Алгоритмы работы с бинарными деревьями](algorithms/graph-or-tree/binary-tree-algorithms.md)
@@ -189,26 +189,26 @@ https://blog.skillfactory.ru/glossary/algoritm/
 - WIP: [Поиск (обход) в глубину](algorithms/graph-or-tree/depth-first-search.md)
 - WIP: [Поиск (обход) в ширину](algorithms/graph-or-tree/breadth-first-search.md)
 
-### Рекурсия (рекурсивные алгоритмы)
+### Рекурсия (рекурсивные алгоритмы) <a name="algorithms-recursion"></a>
 - WIP: [Факториал](algorithms/recursion/factorial.md)
 - WIP: [Фибоначчи](algorithms/recursion/fibonacci.md)
 
-### Динамическое программирование
+### Динамическое программирование <a name="algorithms-dynamic"></a>
 - WIP: [Задача о наибольшей общей подпоследовательности (Longest Common Subsequence)](algorithms/dynamic/largest-common-subsequence-problem.md)
 - WIP: [Задача о рюкзаке](algorithms/dynamic/backpack-problem.md)
 - WIP: [Расстановка ферзей (Проблема N-ферзей)](algorithms/dynamic/queen-ordering.md)
 
-### Жадные алгоритмы (Greedy Algorithms) || Сжатие данных
+### Жадные алгоритмы (Greedy Algorithms) || Сжатие данных <a name="algorithms-greedy"></a>
 - WIP: [Арифметическое кодирование](algorithms/greedy/arithmetic-coding.md)
 - WIP: [Кодирование Хаффмена](algorithms/greedy/huffman-coding.md)
 - WIP: [Сжатие подпоследовательностей](algorithms/greedy/subsequence-compression.md)
 
-### Прочее
+### Прочее <a name="algorithms-others"></a>
 - WIP: [Обмен ключами Диффи-Хеллмана](algorithms/others/key-exchange-diffie-hellman.md)
 - WIP: [Символические вычисления](algorithms/others/symbolic-computation.md)
 
 ---
-## Архитектура, паттерны, модели
+## Архитектура, паттерны, модели <a name="patterns"></a>
 
 > [!TIP]
 > Всегда мало времени, чтобы разработать проект, но его всегда хватает, чтобы сделать в 2 раза больше багов.
@@ -244,7 +244,7 @@ https://systems.education/wis_ddd_architectural_patterns
 https://habr.com/ru/companies/alconost/articles/522662/
 -->
 
-### Виды архитектур
+### Виды архитектур <a name="patterns-architectures"></a>
 - WIP: [Гексагональная архитектура (Hexagonal Architecture)](patterns/architectures/hexagonal.md)
 - WIP: [Клиент—серверная архитектура (Client–Server Architecture)](patterns/architectures/client–server.md)
 - WIP: [Микролитная архитектура (Microlite architecture)](patterns/architectures/microlite.md)
@@ -261,7 +261,7 @@ https://habr.com/ru/companies/alconost/articles/522662/
 - WIP: [Событийно-ориентированная архитектура (Event-Driven Architecture)](patterns/architectures/event-driven.md)
 - WIP: [Чистая архитектура (Clean Architecture)](patterns/architectures/clean.md)
 
-### Концепции проектирования
+### Концепции проектирования <a name="patterns-concepts"></a>
 - WIP: [Анемичная модель (Anemic Domain Model)](patterns/concepts/anemic-domain-model.md)
 - WIP: [Богатая модель (Rich Domain Model)](patterns/concepts/rich-domain-model.md)
 - WIP: [Вертикальное масштабирование (Vertical Scaling)](patterns/concepts/vertical-scaling.md)
@@ -271,7 +271,7 @@ https://habr.com/ru/companies/alconost/articles/522662/
 - WIP: [Хостинг статического контента (Static Content Hosting)](patterns/concepts/static-content-hosting.md)
 - WIP: [Шардирование (Sharding)](patterns/concepts/sharding.md)
 
-### Архитектурные паттерны
+### Архитектурные паттерны <a name="patterns-architectural"></a>
 <!--
 https://tproger.ru/translations/top-5-arhitekturnyh-patternov-dlja-raspredeljonnyh-sistem
 https://systems.education/wis_ddd_architectural_patterns
@@ -297,7 +297,7 @@ https://habr.com/ru/companies/alconost/articles/522662/
 - WIP: [Реестр (Registry)](patterns/architectural/registry.md)
 - WIP: [Состояние-Модель-Представление (State-Model-View, SMV)](patterns/architectural/smv.md)
 
-#### Преобразование монолита
+#### Преобразование монолита <a name="patterns-monolith"></a>
 <!-- 
 https://cloud.vk.com/blog/26-osnovnyh-patternov-mikroservisnoj-razrabotki/
 https://habr.com/ru/companies/reksoft/articles/864206/
@@ -309,7 +309,7 @@ https://habr.com/ru/companies/reksoft/articles/864206/
 - WIP: [Разделение по протоколу коммуникации (Decomposition by Communication Protocol)](patterns/monolith/communication-protocol.md)
 - WIP: [Разделение по развертыванию (Decomposition by Deployment)](patterns/monolith/deployment.md)
 
-#### Паттерны микросервисов
+#### Паттерны микросервисов <a name="patterns-microservices"></a>
 <!--
 https://habr.com/ru/companies/slurm/articles/679906/
 https://habr.com/ru/companies/slurm/articles/681326/
@@ -354,13 +354,13 @@ https://dzen.ru/a/YKJ99EP6Y0aFqFC1
 - WIP: [Шардинг данных (Data Sharding)](patterns/microservices/data-sharding.md)
 - WIP: [Экземпляр сервиса на хост (Service Instance Per Host)](patterns/microservices/service-instance-per-host.md)
 
-### Паттерны работы с БД
+### Паттерны работы с БД <a name="patterns-db"></a>
 - WIP: [Активная запись (Active Record, AR)](patterns/db/active-record.md)
 - WIP: [Двухфазная фиксация (2PC)](patterns/db/2pc.md)
 - WIP: [Упреждающая журнализация (Write-Ahead Log)](patterns/db/write-ahead-log.md)
 - WIP: [Чтение с восстановлением (Read Repair)](patterns/db/read-repair.md)
 
-### Паттерны проектирования
+### Паттерны проектирования <a name="patterns-design"></a>
 <!--
 https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F
 https://habr.com/ru/articles/136766/
@@ -372,7 +372,7 @@ https://doka.guide/tools/architecture-and-design-patterns/
 Gangs of Four (GoF) Design Patterns
 -->
 
-#### Паттерны GRASP
+#### Паттерны GRASP <a name="patterns-design-grasp"></a>
 - WIP: [GRASP: Высокое зацепление (High Cohesion)](patterns/design/grasp/high-cohesion.md)
 - WIP: [GRASP: Информационный эксперт (Information Expert)](patterns/design/grasp/information-expert.md)
 - WIP: [GRASP: Контроллер (Controller)](patterns/design/grasp/controller.md)
@@ -383,7 +383,7 @@ Gangs of Four (GoF) Design Patterns
 - WIP: [GRASP: Устойчивый к изменениям (Protected Variations)](patterns/design/grasp/protected-variations.md)
 - WIP: [GRASP: Чистая выдумка (Pure Fabrication)](patterns/design/grasp/pure-fabrication.md)
 
-#### Паттерны GoF
+#### Паттерны GoF <a name="patterns-design-gof"></a>
 - WIP: [GoF: Поведенческий: Итератор (iterator)](patterns/design/gof/behavioral.iterator.md)
 - WIP: [GoF: Поведенческий: Команда (Command)](patterns/design/gof/behavioral.command.md)
 - WIP: [GoF: Поведенческий: Наблюдатель (Observer)](patterns/design/gof/behavioral.observer.md)
@@ -407,7 +407,7 @@ Gangs of Four (GoF) Design Patterns
 - WIP: [GoF: Структурный: Мост (Bridge)](patterns/design/gof/structural.bridge.md)
 - WIP: [GoF: Структурный: Фасад (Facade)](patterns/design/gof/structural.facade.md)
 
-#### Прочие паттерны
+#### Прочие паттерны <a name="patterns-design-others"></a>
 <!--
 https://design-pattern.ru/patterns/data-mapper.html
 https://qna.habr.com/q/390215
@@ -423,7 +423,7 @@ https://docs.nestjs.com/
 - [Репозиторий (Repository)](patterns/design/repository.md)
 
 ---
-## Протоколы
+## Протоколы <a name="protocols"></a>
 
 > [!TIP]
 > А ты не чувствуешь красоту мира?
@@ -442,7 +442,7 @@ https://ru.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D
   - [tRPC](protocols/trpc.md)
 
 ---
-## SQL, Базы данных
+## SQL, Базы данных <a name="sql-and-db"></a>
 
 > [!TIP]
 > SQL-запрос заходит в бар, подходит к двум столам и спрашивает: "можно присоединиться?"
@@ -454,7 +454,7 @@ https://ru.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D
 - [Транзакции](sql-and-db/transactions.md)
 - WIP: [Соединения с сопоставлениями строк (JOIN) ](sql-and-db/join.md) <!-- https://blog.skillfactory.ru/glossary/join-sql/  https://ru.hexlet.io/courses/complex-sql-queries/lessons/join/theory_unit  https://ru.wikipedia.org/wiki/Join_&#40;SQL&#41;  https://habr.com/ru/articles/655919/  https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions  https://postgrespro.ru/docs/postgrespro/9.5/tutorial-join -->
 
-### PostgreSQL
+### PostgreSQL <a name="sql-and-db-postgresql"></a>
 <!--
 https://postgrespro.ru/docs/postgrespro/10/tutorial-transactions
 https://habr.com/ru/articles/843794/
@@ -479,38 +479,38 @@ https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 - WIP: [Освобождение пространства (VACUUM)](sql-and-db/postgresql/vacuum.md)
 - WIP: [Оптимизация](sql-and-db/postgresql/optimization.md)
 
-### MongoDB
+### MongoDB <a name="sql-and-db-mongodb"></a>
 - WIP: [Виды индексов](sql-and-db/mongodb/indexes.md)
 - WIP: [Транзакции](sql-and-db/mongodb/transactions.md)
 
-### Redis
+### Redis <a name="sql-and-db-redis"></a>
 
-### Elasticsearch
+### Elasticsearch <a name="sql-and-db-elasticsearch"></a>
 
 ---
-## Брокеры сообщений
+## Брокеры сообщений <a name="message-brokers"></a>
 
 > [!TIP]
 > Люди, которые пишут всю свою мысль в одном большом сообщении, вы отбитые? Те кто по одному слову отправляет миллион сообщений - к вам вопросов нет. 
 
-### RabbitMQ
+### RabbitMQ <a name="message-brokers-rabbitmq"></a>
 
-### Nuts
+### Nuts <a name="message-brokers-nuts"></a>
 
-### Kafka
+### Kafka <a name="message-brokers-kafka"></a>
 [//]: # (- партиции,)
 [//]: # (- не блокирующие обработки)
 [//]: # (- хертбиты &#40;хертбиты, хеартбиты&#41;)
 
 ---
-## Языки программирования
+## Языки программирования <a name="languages"></a>
 
 > [!TIP]
 > Работа программиста и шамана имеет много общего — оба бормочут непонятные слова, совершают непонятные действия и не могут объяснить, как оно работает.
 
 - [Внедрение зависимостей (dependency-injection)](code/dependency-injection.md)
 
-### JavaScript
+### JavaScript <a name="languages-javascript"></a>
 - [JavaScript: Цикл событий (Event loop) и libuv](languages/javascript/event-loop-and-libuv.md)
 - WIP: [JavaScript: Промисы (Promises)](languages/javascript/js-promises.md)
 <!--
@@ -518,20 +518,20 @@ https://habr.com/ru/companies/timeweb/articles/663234
 https://habr.com/ru/companies/timeweb/articles/666470/
 -->
 
-### TypeScript
+### TypeScript <a name="languages-typescript"></a>
 - WIP: [Интерфейсы](languages/typescript/interfaces.md)
 - WIP: [Типы](languages/typescript/types.md)
 
 ---
-## Фреймворки
+## Фреймворки <a name="frameworks"></a>
 
 > [!TIP]
 > Тяжелые времена порождают сильных программистов. Сильные программисты создают фреймворки. Фреймворки порождают слабых программистов. Слабые программисты порождают тяжелые времена.
 
-### NestJs
+### NestJs <a name="frameworks-nestjs"></a>
 
 ---
-## DevOps
+## DevOps <a name="devops"></a>
 
 > [!TIP]
 > Здравствуйте, это канал об аниме? Как мне пропатчить KDE2 под FreeBSD?
@@ -546,7 +546,7 @@ https://habr.com/ru/companies/timeweb/articles/666470/
 [//]: # (- configmap)
 
 ---
-## Мониторинги
+## Мониторинги <a name="monitorings"></a>
 
 > [!TIP]
 > Видишь суслика?
@@ -560,7 +560,7 @@ https://habr.com/ru/companies/timeweb/articles/666470/
 [//]: # (- Prometheus)
 
 ---
-## Документирование
+## Документирование <a name="documentation"></a>
 
 > [!TIP]
 > Джун: Где документация?
@@ -574,7 +574,7 @@ https://habr.com/ru/companies/timeweb/articles/666470/
 [//]: # (модели предметной области? может относиться не к этому разделу)
 
 ---
-## Управление кодом
+## Управление кодом <a name="code"></a>
 
 > [!TIP]
 > Не повторяйте одну и ту же ошибку в вашем коде снова и снова. Создайте функцию с ней и вызывайте её каждый раз, когда понадобится.
@@ -587,7 +587,7 @@ https://habr.com/ru/companies/avito/articles/680522/
 -->
 
 ---
-## Управление персоналом
+## Управление персоналом <a name="management"></a>
 
 > [!TIP]
 > Один монитор — обычный программист, два монитора — продвинутый программист, три монитора — системный программист, четыре монитора — охранник.
@@ -606,7 +606,7 @@ https://habr.com/ru/companies/avito/articles/680522/
 [//]: # (- особенности работы с требованиями в гибких методологиях)
 
 ---
-# Вопросы собеседований
+# Вопросы собеседований <a name="tasks"></a>
 
 > [!TIP]
 > Есть два способа написать сложную программу: либо сделать ее настолько простой, что будет казаться, что она проста как два плюс два, либо сделать ее настолько сложной, что невозможно найти ошибки
@@ -615,7 +615,7 @@ https://habr.com/ru/companies/avito/articles/680522/
 https://habr.com/ru/articles/770522/
 -->
 
-## JavaScript
+## JavaScript <a name="tasks-javascript"></a>
 1. [Очистить массив от повторов](tasks/js.clean-doubles-from-array.md)
 1. [Проверить, является ли строка зеркальной](tasks/js.is-mirrored-string.md)
 1. [Проверить, является ли строка палиндромом](tasks/js.is-palindrome-string)
@@ -624,5 +624,5 @@ https://habr.com/ru/articles/770522/
 1. [Порядок выполнения 1 (var)](tasks/js.execution-order-1.md)
 1. [Порядок выполнения 2 (Promise и setTimeout)](tasks/js.execution-order-2.md)
 
-## SQL
+## SQL <a name="tasks-sql"></a>
 1. [Выборка дублирующихся записей](tasks/sql.search-doubles.md)
