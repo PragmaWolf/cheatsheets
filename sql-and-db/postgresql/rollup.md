@@ -1,11 +1,12 @@
-# PostgreSQL: Вычисление итогов (ROLLUP)
+**[SQL, Базы данных](../../README.md#sql-базы-данных) :: [PostgreSQL](../../README.md#postgresql) ::**
+# Вычисление итогов (ROLLUP)
 
 <!--
 
 -->
 
-[К оглавлению](../README.md)
+[К оглавлению](../../README.md#postgresql)
 
 
 
-[К оглавлению](../README.md)
+[К оглавлению](../../README.md#postgresql)
