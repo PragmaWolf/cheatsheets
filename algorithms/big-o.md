@@ -1,4 +1,5 @@
-# Алгоритмы: Big O. Оценка сложности алгоритмов
+**[Алгоритмы](../../README.md#алгоритмы) ::**
+# Big O. Оценка сложности алгоритмов
 
 <!--
 https://habr.com/ru/companies/sberbank/articles/756894/
@@ -11,8 +12,8 @@ https://skillbox.ru/media/code/stydnye-voprosy-o-logarifmakh-vsye-chto-nuzhno-zn
 https://blog.skillfactory.ru/glossary/algoritm/
 -->
 
-[К оглавлению](../README.md)
+[К оглавлению](../README.md#алгоритмы)
 
 
 
-[К оглавлению](../README.md)
+[К оглавлению](../README.md#алгоритмы)
