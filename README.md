@@ -618,7 +618,7 @@ https://habr.com/ru/articles/770522/
 ## JavaScript <a name="tasks-javascript"></a>
 1. [Очистить массив от повторов](tasks/js.clean-doubles-from-array.md)
 1. [Проверить, является ли строка зеркальной](tasks/js.is-mirrored-string.md)
-1. [Проверить, является ли строка палиндромом](tasks/js.is-palindrome-string)
+1. [Проверить, является ли строка палиндромом](tasks/js.is-palindrome-string.md)
 1. [Перевернуть строку](tasks/js.revert-string.md)
 1. [Найти пересечение двух массивов](tasks/js.two-array-intersection.md)
 1. [Порядок выполнения 1 (var)](tasks/js.execution-order-1.md)
