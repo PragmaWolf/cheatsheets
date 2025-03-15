@@ -451,7 +451,7 @@ https://ru.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D
 - WIP: [Шардирование баз данных](sql-and-db/db-sharding.md)
 - WIP: [Типы баз данных](sql-and-db/types-of-db.md)
 - WIP: [Индексы](sql-and-db/indexes.md)
-- [Транзакции](sql-and-db/transactions.md))
+- [Транзакции](sql-and-db/transactions.md)
 - WIP: [Соединения с сопоставлениями строк (JOIN) ](sql-and-db/join.md) <!-- https://blog.skillfactory.ru/glossary/join-sql/  https://ru.hexlet.io/courses/complex-sql-queries/lessons/join/theory_unit  https://ru.wikipedia.org/wiki/Join_&#40;SQL&#41;  https://habr.com/ru/articles/655919/  https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions  https://postgrespro.ru/docs/postgrespro/9.5/tutorial-join -->
 
 ### PostgreSQL
