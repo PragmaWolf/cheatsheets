@@ -279,13 +279,13 @@ https://systems.education/wis_ddd_architectural_patterns
 https://habr.com/ru/companies/alconost/articles/522662/
 -->
 - [Внедрение зависимостей (Dependency Injection, DI)](patterns/architectural/di.md)
-- [Контейнер внедрения зависимостей (Dependency Injection Container, DIC)](patterns/architectural/dic.md)
 - WIP: [Делегирование (Delegation)](patterns/architectural/delegation.md)
 - WIP: [Душитель (Strangler Fig)](patterns/architectural/strangler-fig.md)
 - WIP: [Иерархические Модель-Представление-Контроллер (Hierarchical model–view–controller, HMVC)](patterns/architectural/hmvc.md)
 - WIP: [Инверсия зависимостей (Dependency Inversion Principle, DIP)](patterns/architectural/dip.md)
 - WIP: [Инверсия управления (Inversion of Control, IoC)](patterns/architectural/ioc.md)
 - WIP: [Каналы и фильтры (Pipes & Filters)](patterns/architectural/pipes-and-filters.md)
+- WIP: [Контейнер внедрения зависимостей (Dependency Injection Container, DIC)](patterns/architectural/dic.md)
 - WIP: [Контроллер страницы (Page Controller)](patterns/architectural/page-controller.md)
 - WIP: [Модель-Представление-Контроллер (Model-View-Controller, MVC)](patterns/architectural/mvc.md)
 - WIP: [Модель-Представление-МодельПредставления (Model-View-ViewModel, MVVM)](patterns/architectural/mvvm.md)
