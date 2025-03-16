@@ -1,12 +1,12 @@
-**[Алгоритмы](../../README.md#алгоритмы) :: [Жадные алгоритмы (Greedy Algorithms) || Сжатие данных](../../README.md#жадные-алгоритмы-greedy-algorithms--сжатие-данных) ::**
+**[Алгоритмы](../../README.md#algorithms) :: [Жадные алгоритмы (Greedy Algorithms) || Сжатие данных](../../README.md#algorithms-greedy) ::**
 # Сжатие подпоследовательностей
 
 <!--
 
 -->
 
-[К оглавлению](../../README.md#жадные-алгоритмы-greedy-algorithms--сжатие-данных)
+[К оглавлению](../../README.md#algorithms-greedy)
 
 
 
-[К оглавлению](../../README.md#жадные-алгоритмы-greedy-algorithms--сжатие-данных)
+[К оглавлению](../../README.md#algorithms-greedy)

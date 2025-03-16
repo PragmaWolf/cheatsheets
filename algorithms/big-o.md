@@ -1,4 +1,4 @@
-**[Алгоритмы](../../README.md#алгоритмы) ::**
+**[Алгоритмы](../../README.md#algorithms) ::**
 # Big O. Оценка сложности алгоритмов
 
 <!--
@@ -12,8 +12,8 @@ https://skillbox.ru/media/code/stydnye-voprosy-o-logarifmakh-vsye-chto-nuzhno-zn
 https://blog.skillfactory.ru/glossary/algoritm/
 -->
 
-[К оглавлению](../README.md#алгоритмы)
+[К оглавлению](../README.md#algorithms)
 
 
 
-[К оглавлению](../README.md#алгоритмы)
+[К оглавлению](../README.md#algorithms)

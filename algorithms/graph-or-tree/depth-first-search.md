@@ -1,12 +1,12 @@
-**[Алгоритмы](../../README.md#алгоритмы) :: [Графы и деревья](../../README.md#графы-и-деревья) ::**
+**[Алгоритмы](../../README.md#algorithms) :: [Графы и деревья](../../README.md#algorithms-graph-or-tree) ::**
 # Поиск (обход) в глубину
 
 <!--
 
 -->
 
-[К оглавлению](../../README.md#графы-и-деревья)
+[К оглавлению](../../README.md#algorithms-graph-or-tree)
 
 
 
-[К оглавлению](../../README.md#графы-и-деревья)
+[К оглавлению](../../README.md#algorithms-graph-or-tree)
