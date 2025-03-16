@@ -1,8 +1,9 @@
+**[Концепции, понятия, термины](../README.md#concepts) ::**
 # Паттерны GoF
 
 **G**angs **O**f **F**our (Банда четырех).
 
-[К оглавлению](../README.md)
+[К оглавлению](../README.md#concepts)
 
 Паттерны GoF:
 - [Поведенческий: Цепочка обязанностей (Chain of Responsibility)](../patterns/design/gof/behavioral.chain-of-responsibility).
@@ -30,4 +31,4 @@
 - [Структурный: Легковес (Flyweight)](../patterns/design/gof/structural.flyweight).
 - [Структурный: Заместитель (Proxy)](../patterns/design/gof/structural.proxy).
 
-[К оглавлению](../README.md)
+[К оглавлению](../README.md#concepts)
