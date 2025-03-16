@@ -1,12 +1,12 @@
-**[SQL, Базы данных](../../README.md#sql-базы-данных) :: [PostgreSQL](../../README.md#postgresql) ::**
+**[SQL, Базы данных](../../README.md#sql-and-db) :: [PostgreSQL](../../README.md#sql-and-db-postgresql) ::**
 # Вычисление итогов (ROLLUP)
 
 <!--
 
 -->
 
-[К оглавлению](../../README.md#postgresql)
+[К оглавлению](../../README.md#sql-and-db-postgresql)
 
 
 
-[К оглавлению](../../README.md#postgresql)
+[К оглавлению](../../README.md#sql-and-db-postgresql)

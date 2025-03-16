@@ -1,4 +1,4 @@
-**[SQL, Базы данных](../README.md#sql-базы-данных) ::**
+**[SQL, Базы данных](../README.md#sql-and-db) ::**
 # Индексы
 
 <!--
@@ -7,8 +7,8 @@ https://habr.com/ru/articles/102785/
 https://timeweb.cloud/tutorials/sql/indeksy-v-sql-sozdanie-vidy-i-kak-rabotayut
 -->
 
-[К оглавлению](../README.md#sql-базы-данных)
+[К оглавлению](../README.md#sql-and-db)
 
 
 
-[К оглавлению](../README.md#sql-базы-данных)
+[К оглавлению](../README.md#sql-and-db)

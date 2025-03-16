@@ -1,4 +1,4 @@
-**[SQL, Базы данных](../../README.md#sql-базы-данных) :: [PostgreSQL](../../README.md#postgresql) ::**
+**[SQL, Базы данных](../../README.md#sql-and-db) :: [PostgreSQL](../../README.md#sql-and-db-postgresql) ::**
 # Индексы
 
 <!--
@@ -9,4 +9,4 @@ https://postgrespro.ru/docs/postgresql/17/indexes-types
 
 
 
-[К оглавлению](../../README.md#postgresql)
+[К оглавлению](../../README.md#sql-and-db-postgresql)

@@ -1,4 +1,4 @@
-**[SQL, Базы данных](../README.md#sql-базы-данных) ::**
+**[SQL, Базы данных](../README.md#sql-and-db) ::**
 # Соединения с сопоставлениями строк (JOIN) 
 
 <!--
@@ -10,8 +10,8 @@ https://sky.pro/media/join-v-sql/
 https://timeweb.com/ru/community/articles/kak-rabotaet-sql-join
 -->
 
-[К оглавлению](../README.md#sql-базы-данных)
+[К оглавлению](../README.md#sql-and-db)
 
 
 
-[К оглавлению](../README.md#sql-базы-данных)
+[К оглавлению](../README.md#sql-and-db)
