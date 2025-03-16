@@ -1,4 +1,5 @@
-**[SQL, Базы данных](../../README.md#sql-and-db) :: [PostgreSQL](../../README.md#sql-and-db-postgresql) ::**
+**[SQL, Базы данных](../../README.md#sql-and-db) ::** 
+**[PostgreSQL](../../README.md#sql-and-db-postgresql) ::**
 # Оконные функции
 
 <!--

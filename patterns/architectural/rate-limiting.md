@@ -1,11 +1,13 @@
-# Архитектурные паттерны: Ограничение скорости (Rate Limiting)
+**[Архитектура, паттерны, модели](../../README.md#patterns) ::** 
+**[Архитектурные паттерны](../../README.md#patterns-architectural) ::**
+# Ограничение скорости (Rate Limiting)
 
 <!--
 
 -->
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-architectural)
 
 
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-architectural)

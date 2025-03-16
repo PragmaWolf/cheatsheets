@@ -1,4 +1,5 @@
-**[Структуры данных](../../README.md#data-structures) :: [Описание структур данных](../../README.md#data-structures-descriptions) ::**
+**[Структуры данных](../../README.md#data-structures) ::** 
+**[Описание структур данных](../../README.md#data-structures-descriptions) ::**
 # Карты, Словари (Maps, Dictionaries)
 
 > [!IMPORTANT]

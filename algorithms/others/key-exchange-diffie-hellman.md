@@ -1,4 +1,5 @@
-**[Алгоритмы](../../README.md#algorithms) :: [Прочее](../../README.md#algorithms-others) ::**
+**[Алгоритмы](../../README.md#algorithms) ::** 
+**[Прочее](../../README.md#algorithms-others) ::**
 # Обмен ключами Диффи-Хеллмана
 
 <!--

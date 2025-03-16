@@ -1,11 +1,14 @@
-# Паттерны проектирования: GoF: Поведенческий: Посредник (Mediator)
+**[Архитектура, паттерны, модели](../../../README.md#patterns) ::** 
+**[Паттерны проектирования](../../../README.md#patterns-design) ::** 
+**[Паттерны GoF](../../../README.md#patterns-design-gof) ::**
+# Поведенческий :: Посредник (Mediator)
 
 <!--
 https://refactoring.guru/ru/design-patterns/catalog
 -->
 
-[К оглавлению](../../../README.md)
+[К оглавлению](../../../README.md#patterns-design-gof)
 
 
 
-[К оглавлению](../../../README.md)
+[К оглавлению](../../../README.md#patterns-design-gof)

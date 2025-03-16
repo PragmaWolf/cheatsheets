@@ -1,4 +1,5 @@
-**[Алгоритмы](../../README.md#algorithms) :: [Алгоритмы сортировки](../../README.md#algorithms-sort) ::**
+**[Алгоритмы](../../README.md#algorithms) ::** 
+**[Алгоритмы сортировки](../../README.md#algorithms-sort) ::**
 # Рандомизированный алгоритм
 
 <!--

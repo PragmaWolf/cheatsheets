@@ -1,4 +1,4 @@
-**[Мониторинги](../README.md#monitorings)**
+**[Мониторинги](../README.md#monitorings) ::**
 # Мониторинг сервисов
 
 <!--

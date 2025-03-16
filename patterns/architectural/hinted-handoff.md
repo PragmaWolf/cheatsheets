@@ -1,11 +1,13 @@
-# Архитектурные паттерны: Направленная отправка (Hinted Handoff)
+**[Архитектура, паттерны, модели](../../README.md#patterns) ::** 
+**[Архитектурные паттерны](../../README.md#patterns-architectural) ::**
+# Направленная отправка (Hinted Handoff)
 
 <!--
 
 -->
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-architectural)
 
 
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-architectural)

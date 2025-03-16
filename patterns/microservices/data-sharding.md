@@ -1,11 +1,13 @@
-# Паттерны микросервисов: Шардинг данных (Data Sharding)
+**[Архитектура, паттерны, модели](../../README.md#patterns) ::** 
+**[Паттерны микросервисов](../../README.md#patterns-microservices) ::**
+# Шардинг данных (Data Sharding)
 
 <!--
 
 -->
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-microservices)
 
 
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-microservices)

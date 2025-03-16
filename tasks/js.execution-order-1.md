@@ -1,4 +1,5 @@
-**[Вопросы собеседований](../README.md#tasks) :: [JavaScript](../README.md#tasks-javascript) ::**
+**[Вопросы собеседований](../README.md#tasks) ::** 
+**[JavaScript](../README.md#tasks-javascript) ::**
 # Порядок выполнения 1 (var)
 
 Дан следующий скрипт:

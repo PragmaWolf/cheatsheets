@@ -1,11 +1,14 @@
-# Паттерны проектирования: GoF: Структурный: Декоратор (Decorator)
+**[Архитектура, паттерны, модели](../../../README.md#patterns) ::** 
+**[Паттерны проектирования](../../../README.md#patterns-design) ::** 
+**[Паттерны GoF](../../../README.md#patterns-design-gof) ::**
+# Структурный :: Декоратор (Decorator)
 
 <!--
 https://refactoring.guru/ru/design-patterns/catalog
 -->
 
-[К оглавлению](../../../README.md)
+[К оглавлению](../../../README.md#patterns-design-gof)
 
 
 
-[К оглавлению](../../../README.md)
+[К оглавлению](../../../README.md#patterns-design-gof)

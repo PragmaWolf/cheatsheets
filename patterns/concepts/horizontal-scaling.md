@@ -1,11 +1,13 @@
-# Концепции проектирования: Горизонтальное масштабирование (Horizontal Scaling)
+**[Архитектура, паттерны, модели](../../README.md#patterns) ::** 
+**[Концепции проектирования](../../README.md#patterns-concepts) ::**
+# Горизонтальное масштабирование (Horizontal Scaling)
 
 <!--
 
 -->
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-concepts)
 
 
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-concepts)

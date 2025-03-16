@@ -1,4 +1,5 @@
-**[Структуры данных](../../README.md#data-structures) :: [Описание структур данных](../../README.md#data-structures-descriptions) ::**
+**[Структуры данных](../../README.md#data-structures) ::** 
+**[Описание структур данных](../../README.md#data-structures-descriptions) ::**
 # Множества, Хэш-сеты (Sets, Hash Sets)
 
 Динамическая коллекция уникальных элементов без фиксированной длины.

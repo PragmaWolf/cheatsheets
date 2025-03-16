@@ -1,4 +1,5 @@
-**[Языки программирования](../../README.md#languages) :: [JavaScript](../../README.md#languages-javascript) ::**
+**[Языки программирования](../../README.md#languages) ::** 
+**[JavaScript](../../README.md#languages-javascript) ::**
 # Цикл событий (Event loop) и libuv
 
 <!--

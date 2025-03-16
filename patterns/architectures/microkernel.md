@@ -1,11 +1,13 @@
-# Виды архитектур: Микроядерная архитектура (Microkernel architecture)
+**[Архитектура, паттерны, модели](../../README.md#patterns) ::** 
+**[Виды архитектур](../../README.md#patterns-architectures) ::**
+# Микроядерная архитектура (Microkernel architecture)
 
 <!--
 
 -->
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-architectures)
 
 
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-architectures)

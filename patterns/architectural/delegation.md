@@ -1,11 +1,13 @@
-# Архитектурные паттерны: Делегирование (Delegation)
+**[Архитектура, паттерны, модели](../../README.md#patterns) ::** 
+**[Архитектурные паттерны](../../README.md#patterns-architectural) ::**
+# Делегирование (Delegation)
 
 <!--
 
 -->
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-architectural)
 
 
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-architectural)

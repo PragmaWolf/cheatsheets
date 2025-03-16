@@ -1,4 +1,5 @@
-**[Алгоритмы](../../README.md#algorithms) :: [Графы и деревья](../../README.md#algorithms-graph-or-tree) ::**
+**[Алгоритмы](../../README.md#algorithms) ::** 
+**[Графы и деревья](../../README.md#algorithms-graph-or-tree) ::**
 # Алгоритм Флойда-Уоршелла
 
 <!--

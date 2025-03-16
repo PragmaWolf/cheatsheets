@@ -1,4 +1,5 @@
-**[Вопросы собеседований](../README.md#tasks) :: [JavaScript](../README.md#tasks-javascript) ::**
+**[Вопросы собеседований](../README.md#tasks) ::** 
+**[JavaScript](../README.md#tasks-javascript) ::**
 # Порядок выполнения 2 (Promise и setTimeout)
 
 Дан следующий скрипт:

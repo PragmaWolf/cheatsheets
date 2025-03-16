@@ -1,4 +1,5 @@
-**[Парадигмы](../../README.md#paradigms-models) :: [Подходы и приёмы](../../README.md#paradigms-techniques) ::**
+**[Парадигмы](../../README.md#paradigms-models) ::** 
+**[Подходы и приёмы](../../README.md#paradigms-techniques) ::**
 # Обобщённое программирование
 
 <!--

@@ -1,4 +1,5 @@
-**[Языки программирования](../../README.md#languages) :: [TypeScript](../../README.md#languages-typescript) ::**
+**[Языки программирования](../../README.md#languages) ::** 
+**[TypeScript](../../README.md#languages-typescript) ::**
 # Интерфейсы
 
 <!--

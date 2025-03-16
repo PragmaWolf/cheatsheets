@@ -1,4 +1,5 @@
-**[Алгоритмы](../../README.md#algorithms) :: [Поисковые алгоритмы](../../README.md#algorithms-search) ::**
+**[Алгоритмы](../../README.md#algorithms) ::** 
+**[Поисковые алгоритмы](../../README.md#algorithms-search) ::**
 # Поиск в массиве
 
 <!--

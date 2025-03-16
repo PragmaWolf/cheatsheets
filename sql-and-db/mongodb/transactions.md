@@ -1,4 +1,5 @@
-**[SQL, Базы данных](../../README.md#sql-and-db) :: [MongoDB](../../README.md#sql-and-db-mongodb) ::**
+**[SQL, Базы данных](../../README.md#sql-and-db) ::** 
+**[MongoDB](../../README.md#sql-and-db-mongodb) ::**
 # Транзакции
 
 <!--

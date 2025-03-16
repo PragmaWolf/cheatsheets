@@ -416,10 +416,10 @@ https://gist.github.com/maestrow/594fd9aee859c809b043
 https://habr.com/ru/articles/316836/
 https://docs.nestjs.com/
 -->
-- [Ленивая загрузка (Lazy Load)](patterns/design/lazy-load.md)
-- [Поставщик/потребитель (Producer/Consumer)](patterns/design/producer-consumer.md)
-- [Преобразователь данных (Data Mapper)](patterns/design/data-mapper.md)
-- [Репозиторий (Repository)](patterns/design/repository.md)
+- [Ленивая загрузка (Lazy Load)](patterns/design/others/lazy-load.md)
+- [Поставщик/потребитель (Producer/Consumer)](patterns/design/others/producer-consumer.md)
+- [Преобразователь данных (Data Mapper)](patterns/design/others/data-mapper.md)
+- [Репозиторий (Repository)](patterns/design/others/repository.md)
 
 ---
 ## Протоколы <a name="protocols"></a>
@@ -506,8 +506,6 @@ https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 
 > [!TIP]
 > Работа программиста и шамана имеет много общего — оба бормочут непонятные слова, совершают непонятные действия и не могут объяснить, как оно работает.
-
-- [Внедрение зависимостей (dependency-injection)](code/dependency-injection.md)
 
 ### JavaScript <a name="languages-javascript"></a>
 - [JavaScript: Цикл событий (Event loop) и libuv](languages/javascript/event-loop-and-libuv.md)

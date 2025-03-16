@@ -1,11 +1,13 @@
-# Архитектурные паттерны: Обратное проксирование (Reverse Proxy)
+**[Архитектура, паттерны, модели](../../README.md#patterns) ::** 
+**[Архитектурные паттерны](../../README.md#patterns-architectural) ::**
+# Обратное проксирование (Reverse Proxy)
 
 <!--
 
 -->
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-architectural)
 
 
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-architectural)

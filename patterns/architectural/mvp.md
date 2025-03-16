@@ -1,11 +1,13 @@
-# Архитектурные паттерны: Модель-Представление-Представитель (Model-View-Presenter, MVP)
+**[Архитектура, паттерны, модели](../../README.md#patterns) ::** 
+**[Архитектурные паттерны](../../README.md#patterns-architectural) ::**
+# Модель-Представление-Представитель (Model-View-Presenter, MVP)
 
 <!--
 
 -->
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-architectural)
 
 
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-architectural)

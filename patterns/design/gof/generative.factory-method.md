@@ -1,11 +1,14 @@
-# Паттерны проектирования: GoF: Порождающий: Фабричный метод (Factory, Factory Method)
+**[Архитектура, паттерны, модели](../../../README.md#patterns) ::** 
+**[Паттерны проектирования](../../../README.md#patterns-design) ::** 
+**[Паттерны GoF](../../../README.md#patterns-design-gof) ::**
+# Порождающий :: Фабричный метод (Factory, Factory Method)
 
 <!--
 https://refactoring.guru/ru/design-patterns/catalog
 -->
 
-[К оглавлению](../../../README.md)
+[К оглавлению](../../../README.md#patterns-design-gof)
 
 
 
-[К оглавлению](../../../README.md)
+[К оглавлению](../../../README.md#patterns-design-gof)

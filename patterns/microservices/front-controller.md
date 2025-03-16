@@ -1,11 +1,13 @@
-# Паттерны микросервисов: Единая точка входа (Front Controller)
+**[Архитектура, паттерны, модели](../../README.md#patterns) ::** 
+**[Паттерны микросервисов](../../README.md#patterns-microservices) ::**
+# Единая точка входа (Front Controller)
 
 <!--
 
 -->
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-microservices)
 
 
 
-[К оглавлению](../../README.md)
+[К оглавлению](../../README.md#patterns-microservices)

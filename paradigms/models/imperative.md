@@ -1,4 +1,5 @@
-**[Парадигмы](../../README.md#paradigms-models) :: [Основные модели](../../README.md#paradigms-models) ::**
+**[Парадигмы](../../README.md#paradigms-models) ::** 
+**[Основные модели](../../README.md#paradigms-models) ::**
 # Императивное программирование
 
 <!--

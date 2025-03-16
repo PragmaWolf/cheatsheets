@@ -1,4 +1,7 @@
-# Паттерны проектирования: GRASP: Низкая связанность (Low Coupling)
+**[Архитектура, паттерны, модели](../../../README.md#patterns) ::** 
+**[Паттерны проектирования](../../../README.md#patterns-design) ::** 
+**[Паттерны GRASP](../../../README.md#patterns-design-grasp) ::**
+# Низкая связанность (Low Coupling)
 
 <!--
 https://ru.wikipedia.org/wiki/GRASP
@@ -8,8 +11,8 @@ https://habr.com/ru/articles/92570/
 https://habr.com/ru/articles/38323/
 -->
 
-[К оглавлению](../../../README.md)
+[К оглавлению](../../../README.md#patterns-design-grasp)
 
 
 
-[К оглавлению](../../../README.md)
+[К оглавлению](../../../README.md#patterns-design-grasp)
