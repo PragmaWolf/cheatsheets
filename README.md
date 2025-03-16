@@ -3,7 +3,7 @@
 > [!TIP]
 > Если вы что-то не можете объяснить шестилетнему ребёнку, вы сами этого не понимаете (c) Альберт Эйнштейн
 
-Это просто набор кратких описаний, предназначенный, в первую очередь, структурировать знания и быстро вспомнить, то что знаешь, но давно не использовал на практике. Так же будет полезен для подготовки к собеседованиям и просто освежить знания. Если будет полезно кому-то - буду только рад :)
+Это просто набор кратких описаний, предназначенный, в первую очередь, структурировать знания и быстро вспомнить, то что знаешь, но давно не использовал на практике. Так же будет полезен для подготовки к собеседованиям и просто освежить знания. Если окажется полезным кому-то еще, то буду только рад :)
 
 <!--
 https://backendinterview.ru/index.html
@@ -278,7 +278,8 @@ https://tproger.ru/translations/top-5-arhitekturnyh-patternov-dlja-raspredeljonn
 https://systems.education/wis_ddd_architectural_patterns
 https://habr.com/ru/companies/alconost/articles/522662/
 -->
-- WIP: [Внедрение зависимостей (Dependency Injection, DI)](patterns/architectural/di.md)
+- [Внедрение зависимостей (Dependency Injection, DI)](patterns/architectural/di.md)
+- [Контейнер внедрения зависимостей (Dependency Injection Container, DIC)](patterns/architectural/dic.md)
 - WIP: [Делегирование (Delegation)](patterns/architectural/delegation.md)
 - WIP: [Душитель (Strangler Fig)](patterns/architectural/strangler-fig.md)
 - WIP: [Иерархические Модель-Представление-Контроллер (Hierarchical model–view–controller, HMVC)](patterns/architectural/hmvc.md)
