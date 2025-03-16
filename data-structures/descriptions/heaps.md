@@ -1,6 +1,7 @@
+**[Структуры данных](../../README.md#data-structures) :: [Описание структур данных](../../README.md#data-structures-descriptions) ::**
 # Кучи (Heaps)
 
-[К оглавлению](../README.md)
+[К оглавлению](../../README.md#data-structures-descriptions)
 
 Динамическая коллекция элементов без фиксированной длины.
 
@@ -34,4 +35,4 @@
 - Обновление: да
 - Удаление: да
 
-[К оглавлению](../README.md)
+[К оглавлению](../../README.md#data-structures-descriptions)

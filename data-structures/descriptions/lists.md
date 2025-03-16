@@ -1,7 +1,8 @@
-# Динамические массивы (Dynamic arrays)
+**[Структуры данных](../../README.md#data-structures) :: [Описание структур данных](../../README.md#data-structures-descriptions) ::**
+# Списки (Lists)
 
 > [!IMPORTANT]
-> Аналогичны [спискам](lists.md)
+> Аналогичны [динамическим массивам](arrays.dynamic.md)
 
 Динамическая коллекция однотипных элементов без фиксированной длины.
 
@@ -26,4 +27,4 @@
 - Обновление: да
 - Удаление: да
 
-[К оглавлению](../README.md)
+[К оглавлению](../../README.md#data-structures-descriptions)

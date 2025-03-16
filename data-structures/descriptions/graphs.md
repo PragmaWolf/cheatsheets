@@ -1,6 +1,7 @@
+**[Структуры данных](../../README.md#data-structures) :: [Описание структур данных](../../README.md#data-structures-descriptions) ::**
 # Графы (Graphs)
 
-[К оглавлению](../README.md)
+[К оглавлению](../../README.md#data-structures-descriptions)
 
 Совокупность узлов (вершин, контейнеров с данными), соединенных с другими узлами в определенном порядке.
 
@@ -39,4 +40,4 @@
 - Обновление: да
 - Удаление: да
 
-[К оглавлению](../README.md)
+[К оглавлению](../../README.md#data-structures-descriptions)

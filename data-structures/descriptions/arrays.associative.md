@@ -1,3 +1,4 @@
+**[Структуры данных](../../README.md#data-structures) :: [Описание структур данных](../../README.md#data-structures-descriptions) ::**
 # Ассоциативные массивы (Associative Arrays)
 
 > [!IMPORTANT]
@@ -27,4 +28,4 @@
 - Обновление: да
 - Удаление: да
 
-[К оглавлению](../README.md)
+[К оглавлению](../../README.md#data-structures-descriptions)

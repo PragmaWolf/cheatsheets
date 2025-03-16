@@ -1,3 +1,4 @@
+**[Структуры данных](../../README.md#data-structures) :: [Описание структур данных](../../README.md#data-structures-descriptions) ::**
 # Массивы (Arrays)
 
 Коллекция однотипных элементов с фиксированной длиной.
@@ -23,4 +24,4 @@
 - Обновление: да
 - Удаление: да
 
-[К оглавлению](../README.md)
+[К оглавлению](../../README.md#data-structures-descriptions)
