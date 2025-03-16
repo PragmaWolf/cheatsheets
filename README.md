@@ -434,14 +434,14 @@ https://docs.nestjs.com/
 <!--
 https://ru.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%B4%D1%83%D1%80
 -->
-- [HTTP2](protocols/http2.md)
-- [HTTP](protocols/http.md)
-- [TCP/IP](protocols/tcp-ip.md)
-- [WebSocket](protocols/websocket.md)
-- [Джиттер (Jitter)](protocols/jitter.md)
-- [Удалённый вызов процедур (Remote Procedure Call, RPC)](protocols/rpc.md)
-  - [gRPC](protocols/grpc.md)
-  - [tRPC](protocols/trpc.md)
+- WIP: [HTTP2](protocols/http2.md)
+- WIP: [HTTP](protocols/http.md)
+- WIP: [TCP/IP](protocols/tcp-ip.md)
+- WIP: [WebSocket](protocols/websocket.md)
+- WIP: [Джиттер (Jitter)](protocols/jitter.md)
+- WIP: [Удалённый вызов процедур (Remote Procedure Call, RPC)](protocols/rpc.md)
+  - WIP: [gRPC](protocols/grpc.md)
+  - WIP: [tRPC](protocols/trpc.md)
 
 ---
 ## SQL, Базы данных <a name="sql-and-db"></a>
