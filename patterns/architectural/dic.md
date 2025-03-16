@@ -1,0 +1,15 @@
+**[Архитектура, паттерны, модели](../../README.md#patterns) ::**
+**[Архитектурные паттерны](../../README.md#patterns-architectural) ::**
+# Контейнер внедрения зависимостей (Dependency Injection Container, DIC)
+
+<!--
+https://habr.com/ru/articles/350708/#start_DI_benefits
+-->
+
+[К оглавлению](../../README.md#patterns-architectural)
+
+- Может содержать конфиг, какие зависимости и кому нужны.
+- Может инициализировать зависимости как синглтоны, при необходимости.
+- На основе конфига или кода решает какие зависимости и куда нужно внедрять.
+
+[К оглавлению](../../README.md#patterns-architectural)
