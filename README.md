@@ -6,7 +6,10 @@
 Это просто набор кратких описаний, предназначенный, в первую очередь, структурировать знания и быстро вспомнить, то что знаешь, но давно не использовал на практике. Так же будет полезен для подготовки к собеседованиям и просто освежить знания. Если окажется полезным кому-то еще, то буду только рад :)
 
 <!--
-https://backendinterview.ru/index.html
+https://backendinterview.ru/index.html - аналог моей доки
+https://bool.dev/blog/detail/voprosy-na-sobesedovanii-dlya-senior-net-developer - много полезной инфы безотносительно языка
+Uniform interface - почитать и добавить
+JWT token - описать
 -->
 
 ---
@@ -69,6 +72,7 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 - [Наследование](concepts/inheritance.md)
 - [Композиция](concepts/composition.md)
 - [Агрегирование](concepts/aggregation.md)
+- [Ассоциация](concepts/association.md)
 - [Идемпотентность](concepts/idempotency.md)
 - [Реентерабельность](concepts/reentrant.md)
 - WIP: [Конечный автомат](concepts/finite-state-machine.md)
@@ -78,6 +82,8 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 - WIP: [Класс](concepts/class.md)
 - WIP: [Прототип](concepts/prototype.md)
 - WIP: [Persistence (Устойчивость)](concepts/persistence.md)
+- WIP: [Связность (связанность)](concepts/cohesion.md)
+- WIP: [Зацепление](concepts/coupling.md)
 - WIP: [Признаки плохого проекта](concepts/bad-project.md)
 
 ---
@@ -243,6 +249,8 @@ https://habr.com/ru/companies/sberbank/articles/781612/
 https://tproger.ru/translations/top-5-arhitekturnyh-patternov-dlja-raspredeljonnyh-sistem
 https://systems.education/wis_ddd_architectural_patterns
 https://habr.com/ru/companies/alconost/articles/522662/
+https://habr.com/ru/articles/261171/
+12factor.net
 -->
 
 ### Виды архитектур <a name="patterns-architectures"></a>
@@ -376,7 +384,7 @@ Gangs of Four (GoF) Design Patterns
 
 #### Паттерны GRASP <a name="patterns-design-grasp"></a>
 - WIP: [GRASP: Высокое зацепление (High Cohesion)](patterns/design/grasp/high-cohesion.md)
-- WIP: [GRASP: Информационный эксперт (Information Expert)](patterns/design/grasp/information-expert.md)
+- [GRASP: Информационный эксперт (Information Expert)](patterns/design/grasp/information-expert.md)
 - WIP: [GRASP: Контроллер (Controller)](patterns/design/grasp/controller.md)
 - WIP: [GRASP: Низкая связанность (Low Coupling)](patterns/design/grasp/low-coupling.md)
 - WIP: [GRASP: Перенаправление (Indirection)](patterns/design/grasp/indirection.md)
@@ -581,6 +589,7 @@ https://habr.com/ru/companies/timeweb/articles/666470/
 
 <!--
 https://habr.com/ru/companies/avito/articles/680522/
+https://bool.dev/blog/detail/git-branching-strategies
 + Git Flow
 + GitLab flow
 и т.п.
