@@ -58,8 +58,6 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 - [Принципы KISS](concepts/kiss.md)
 - [Принципы SOLID](concepts/solid.md)
 - [Принципы YAGNI](concepts/yagni.md)
-- [Паттерны GRASP](concepts/grasp.md)
-- [Паттерны GoF](concepts/gof.md)
 - [Требования ACID](concepts/acid.md)
 - [Закон Деметры](concepts/lod.md)
 - [Подход MIT](concepts/mit.md)
@@ -70,9 +68,11 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 - WIP: [Инкапсуляция](concepts/encapsulation.md)
 - WIP: [Полиморфизм](concepts/polymorphism.md)
 - [Наследование](concepts/inheritance.md)
-- [Композиция](concepts/composition.md)
-- [Агрегирование](concepts/aggregation.md)
+- WIP: [Отношения IS-A](concepts/is-a.md)
+- WIP: [Отношения HAS-A](concepts/has-a.md)
 - [Ассоциация](concepts/association.md)
+- [Агрегирование](concepts/aggregation.md)
+- [Композиция](concepts/composition.md)
 - [Идемпотентность](concepts/idempotency.md)
 - [Реентерабельность](concepts/reentrant.md)
 - WIP: [Конечный автомат](concepts/finite-state-machine.md)
@@ -383,6 +383,8 @@ Gangs of Four (GoF) Design Patterns
 -->
 
 #### Паттерны GRASP <a name="patterns-design-grasp"></a>
+**G**eneral **R**esponsibility **A**ssignment **S**oftware **P**atterns. Шаблоны проектирования, используемые для решения общих задач по назначению обязанностей классам и объектам. Описано девять GRAPS шаблонов. Паттерны не имеют выраженной структуры, четкой области применения и конкретной решаемой проблемы, а лишь представляют собой обобщенные подходы/рекомендации/принципы, используемые при проектировании дизайна системы. Это распределение ролей и ответственностей между всеми объектами, а также свойства, которыми эти объекты должны обладать для того, чтобы гармонично исполнять свои роли.
+
 - WIP: [GRASP: Высокое зацепление (High Cohesion)](patterns/design/grasp/high-cohesion.md)
 - [GRASP: Информационный эксперт (Information Expert)](patterns/design/grasp/information-expert.md)
 - WIP: [GRASP: Контроллер (Controller)](patterns/design/grasp/controller.md)
@@ -394,6 +396,8 @@ Gangs of Four (GoF) Design Patterns
 - WIP: [GRASP: Чистая выдумка (Pure Fabrication)](patterns/design/grasp/pure-fabrication.md)
 
 #### Паттерны GoF <a name="patterns-design-gof"></a>
+**G**angs **O**f **F**our (Банда четырех). В 1995 году Эрих Гамм, Ричард Хелм, Ральф Джонсон и Джон Влиссидес написали книгу «Design Patterns: Elements of Reusable Object-Oriented Software», в которой применили концепцию типовых паттернов в программировании. В книгу вошли 23 паттерна, решающие различные проблемы объектно-ориентированного дизайна.
+
 - WIP: [GoF: Поведенческий: Итератор (iterator)](patterns/design/gof/behavioral.iterator.md)
 - WIP: [GoF: Поведенческий: Команда (Command)](patterns/design/gof/behavioral.command.md)
 - WIP: [GoF: Поведенческий: Наблюдатель (Observer)](patterns/design/gof/behavioral.observer.md)
@@ -457,6 +461,10 @@ https://ru.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D
 > [!TIP]
 > SQL-запрос заходит в бар, подходит к двум столам и спрашивает: "можно присоединиться?"
 
+- WIP: [Нормализация и денормализация](sql-and-db/normalization-and-denormalization.md)
+- WIP: [Связь многие ко многим (Many-to-many)](sql-and-db/many-to-many.md)
+- WIP: [Связь один ко многим (One-to-many)](sql-and-db/one-to-many.md)
+- WIP: [Связь один к одному (One-to-one)](sql-and-db/one-to-one.md)
 - WIP: [CRUD](sql-and-db/crud.md)
 - WIP: [Шардирование баз данных](sql-and-db/db-sharding.md)
 - WIP: [Типы баз данных](sql-and-db/types-of-db.md)
