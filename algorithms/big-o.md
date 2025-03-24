@@ -10,6 +10,7 @@ https://habr.com/ru/articles/444594/
 https://habr.com/ru/articles/770522/
 https://skillbox.ru/media/code/stydnye-voprosy-o-logarifmakh-vsye-chto-nuzhno-znat-programmistu/
 https://blog.skillfactory.ru/glossary/algoritm/
+https://www.baeldung.com/cs/complexity-stack-queue-deque-set
 -->
 
 [К оглавлению](../README.md#algorithms)

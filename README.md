@@ -11,6 +11,7 @@
 https://backendinterview.ru/index.html - аналог моей доки
 https://bool.dev/blog/detail/voprosy-na-sobesedovanii-dlya-senior-net-developer - много полезной инфы безотносительно языка
 Uniform interface - почитать и добавить
+Persistence Context - почитать и добавить
 JWT token - описать
 -->
 
@@ -56,9 +57,14 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%B3%D0%BC%D
 <!--
 https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82%D1%81%D0%BA%D0%B8%D1%85-%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D0%BD%D0%BE%D0%BC-%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5-8c2cb31fcda4
 -->
-- [Принцип DRY](concepts/dry.md)
-- [Принципы KISS](concepts/kiss.md)
-- [Принципы SOLID](concepts/solid.md)
+- [Принцип DRY](concepts/dry.md) - Не повторяй свой код. Избегайте дублирования кода без острой необходимости.
+- [Принципы KISS](concepts/kiss.md) - Делай это проще. Разбивайте задачи на подзадачи. Делайте ваши классы и методы маленькими. Сначала придумайте решение задачи, потом напишите код. Не бойтесь избавляться от кода.
+- [Принципы SOLID](concepts/solid.md) - Cпособствует созданию такой системы, которую будет легко поддерживать и расширять в течение долгого времени.
+  - [S](concepts/solid.md#s) - Принцип единственной ответственности. Предлагает разделять универсальные классы на конкретные, что сделает их простыми и лёгкими в обслуживании.
+  - [O](concepts/solid.md#o) - Принцип открытости/закрытости. Сущности должны быть открыты для расширения, но закрыты для модификации.
+  - [L](concepts/solid.md#l) - Принцип подстановки Лисков. Производный класс должен сохранять все свойства базового класса и не изменять их семантику.
+  - [I](concepts/solid.md#i) - Принцип разделения интерфейса. Слишком большие интерфейсы необходимо разделять на более маленькие и специфические.
+  - [D](concepts/solid.md#d) - Принцип инверсии зависимостей. Модули верхнего уровня не должны зависеть от модулей нижнего уровня. Оба типа модулей должны зависеть от абстракций.
 - [Принципы YAGNI](concepts/yagni.md)
 - [Требования ACID](concepts/acid.md)
 - [Закон Деметры](concepts/lod.md)
@@ -84,6 +90,8 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 - WIP: [Класс](concepts/class.md)
 - WIP: [Прототип](concepts/prototype.md)
 - WIP: [Persistence (Устойчивость)](concepts/persistence.md)
+- WIP: [Сохранение состояния (statefull)](concepts/statefull.md)
+- WIP: [Без сохранения состояния (stateless)](concepts/stateless.md)
 - WIP: [Связность (связанность)](concepts/cohesion.md)
 - WIP: [Зацепление](concepts/coupling.md)
 - WIP: [Признаки плохого проекта](concepts/bad-project.md)
@@ -107,6 +115,7 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 <!--
 https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D1%8F%D0%B7%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA
 https://www.bigocheatsheet.com/
+Деки - что за тип?
 -->
 ### Описание структур данных <a name="data-structures-descriptions"></a>
 - [Массивы (Arrays)](data-structures/descriptions/arrays.md)
@@ -487,6 +496,7 @@ https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 - WIP: [Типы данных](sql-and-db/postgresql/types.md)
 - WIP: [Виды индексов](sql-and-db/postgresql/indexes.md)
 - WIP: [Транзакции](sql-and-db/postgresql/transactions.md)
+- WIP: [Блокировки](blocking.md)
 - WIP: [Фильтрация (HAVING)](sql-and-db/postgresql/having.md)
 - WIP: [Группировка (GROUP BY)](sql-and-db/postgresql/group-by.md)
 - WIP: [Многоуровневая группировка (GROUPING SETS)](sql-and-db/postgresql/grouping-sets.md)
@@ -496,7 +506,8 @@ https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 - WIP: [Процедурные функции](sql-and-db/postgresql/procedural-functions.md)
 - WIP: [Статистика содержимого таблиц (ANALYZE)](sql-and-db/postgresql/analyze.md)
 - WIP: [План выполнения (EXPLAIN)](sql-and-db/postgresql/explain.md)
-- WIP: [Освобождение пространства (VACUUM)](sql-and-db/postgresql/vacuum.md)
+- [Освобождение пространства (VACUUM)](sql-and-db/postgresql/vacuum.md)
+- [Карта видимости](visibility-map.md)
 - WIP: [Оптимизация](sql-and-db/postgresql/optimization.md)
 
 ### MongoDB <a name="sql-and-db-mongodb"></a>
@@ -635,13 +646,15 @@ https://habr.com/ru/articles/770522/
 -->
 
 ## JavaScript <a name="tasks-javascript"></a>
-1. [Очистить массив от повторов](tasks/js.clean-doubles-from-array.md)
-1. [Проверить, является ли строка зеркальной](tasks/js.is-mirrored-string.md)
-1. [Проверить, является ли строка палиндромом](tasks/js.is-palindrome-string.md)
-1. [Перевернуть строку](tasks/js.revert-string.md)
-1. [Найти пересечение двух массивов](tasks/js.two-array-intersection.md)
-1. [Порядок выполнения 1 (var)](tasks/js.execution-order-1.md)
-1. [Порядок выполнения 2 (Promise и setTimeout)](tasks/js.execution-order-2.md)
+1. [Найти пересечение двух массивов](tasks/javascript/two-array-intersection.md)
+1. [Очистить массив от повторов](tasks/javascript/clean-doubles-from-array.md)
+1. [Перевернуть строку](tasks/javascript/revert-string.md)
+1. [Порядок выполнения 1 (var)](tasks/javascript/execution-order-1.md)
+1. [Порядок выполнения 2 (Promise и setTimeout)](tasks/javascript/execution-order-2.md)
+1. [Проверить, является ли строка зеркальной](tasks/javascript/is-mirrored-string.md)
+1. [Проверить, является ли строка палиндромом](tasks/javascript/is-palindrome-string.md)
+1. [Проверка порядка скобок](tasks/javascript/check-brackets.md)
+1. [Что выведет функция (let)](tasks/javascript/what-output-let.md)
 
 ## SQL <a name="tasks-sql"></a>
-1. [Выборка дублирующихся записей](tasks/sql.search-doubles.md)
+1. [Выборка дублирующихся записей](tasks/sql/search-doubles.md)

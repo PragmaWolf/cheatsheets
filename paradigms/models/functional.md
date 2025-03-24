@@ -3,7 +3,7 @@
 # Функциональное программирование
 
 <!--
-
+https://metanit.com/common/langs/1.2.php
 -->
 
 [К оглавлению](../../README.md#paradigms-models)

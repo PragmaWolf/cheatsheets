@@ -1,9 +1,9 @@
-**[SQL, Базы данных](../../README.md#sql-and-db) ::** 
+**[SQL, Базы данных](../../README.md#sql-and-db) ::**
 **[PostgreSQL](../../README.md#sql-and-db-postgresql) ::**
-# Оконные функции
+# Блокировки
 
 <!--
-https://habr.com/ru/articles/664000/
+ACCESS EXCLUSIVE
 -->
 
 [К оглавлению](../../README.md#sql-and-db-postgresql)
