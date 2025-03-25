@@ -142,6 +142,7 @@ https://www.bigocheatsheet.com/
   - WIP: [T-дерево (T-tree)](data-structures/descriptions/trees.t.md)
   - WIP: [Декартово дерево (Cartesian tree)](data-structures/descriptions/trees.cartesian.md)
   - WIP: [B-дерево (B-tree)](data-structures/descriptions/trees.b.md)
+  - WIP: [R-дерево (B-tree)](data-structures/descriptions/trees.r.md)
   - WIP: [Splay дерево (Splay tree)](data-structures/descriptions/trees.splay.md)
   - WIP: [KD дерево (KD tree)](data-structures/descriptions/trees.kd.md)
   - WIP: [Деревья квадрантов (Quadrant trees)](data-structures/descriptions/trees.quadrant.md)
@@ -407,7 +408,7 @@ Gangs of Four (GoF) Design Patterns
 - WIP: [GRASP: Чистая выдумка (Pure Fabrication)](patterns/design/grasp/pure-fabrication.md)
 
 #### Паттерны GoF <a name="patterns-design-gof"></a>
-**G**angs **O**f **F**our (Банда четырех). В 1995 году Эрих Гамм, Ричард Хелм, Ральф Джонсон и Джон Влиссидес написали книгу «Design Patterns: Elements of Reusable Object-Oriented Software», в которой применили концепцию типовых паттернов в программировании. В книгу вошли 23 паттерна, решающие различные проблемы объектно-ориентированного дизайна.
+**G**angs **O**f **F**our (Банда четырех). В 1995 году Эрих Гамм, Ричард Хелм, Ральф Джонсон и Джон Влиссидес написали книгу "Design Patterns: Elements of Reusable Object-Oriented Software", в которой применили концепцию типовых паттернов в программировании. В книгу вошли 23 паттерна, решающие различные проблемы объектно-ориентированного дизайна.
 
 - WIP: [GoF: Поведенческий: Итератор (iterator)](patterns/design/gof/behavioral.iterator.md)
 - WIP: [GoF: Поведенческий: Команда (Command)](patterns/design/gof/behavioral.command.md)
@@ -481,6 +482,10 @@ https://ru.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D
 - WIP: [Типы баз данных](sql-and-db/types-of-db.md)
 - WIP: [Индексы](sql-and-db/indexes.md)
 - [Транзакции](sql-and-db/transactions.md)
+  - [Уровень изоляции Read uncommitted](sql-and-db/transactions.md#uncommitted) - Есть доступ к еще не подтвержденным завершением транзакции данным.
+  - [Уровень изоляции Read committed](sql-and-db/transactions.md#committed) - Есть доступ только к подтвержденным завершением транзакции данным.
+  - [Уровень изоляции Repeatable read или Snapshot isolation](sql-and-db/transactions.md#repeatable-read) - Есть доступ к сгнепшоту данных созданному в начале транзакции.
+  - [Уровень изоляции Serializable](sql-and-db/transactions.md#serializable) - Нет никакого доступа к данным до завершения транзакции.
 - WIP: [Соединения с сопоставлениями строк (JOIN) ](sql-and-db/join.md) <!-- https://blog.skillfactory.ru/glossary/join-sql/  https://ru.hexlet.io/courses/complex-sql-queries/lessons/join/theory_unit  https://ru.wikipedia.org/wiki/Join_&#40;SQL&#41;  https://habr.com/ru/articles/655919/  https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions  https://postgrespro.ru/docs/postgrespro/9.5/tutorial-join -->
 
 ### PostgreSQL <a name="sql-and-db-postgresql"></a>
@@ -494,7 +499,13 @@ https://postgrespro.ru/docs/enterprise/9.6/atx
 https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 -->
 - WIP: [Типы данных](sql-and-db/postgresql/types.md)
-- WIP: [Виды индексов](sql-and-db/postgresql/indexes.md)
+- WIP: [Индексы](sql-and-db/postgresql/indexes.md)
+  - [B-дерево (B-tree, Balanced tree)](sql-and-db/postgresql/indexes.md#b-tree)
+  - [Хеш (Hash)](sql-and-db/postgresql/indexes.md#hash)
+  - [GiST](sql-and-db/postgresql/indexes.md#gist)
+  - [SP-GiST](sql-and-db/postgresql/indexes.md#sp-gIst)
+  - [GIN](sql-and-db/postgresql/indexes.md#gin)
+  - [BRIN](sql-and-db/postgresql/indexes.md#brin)
 - WIP: [Транзакции](sql-and-db/postgresql/transactions.md)
 - WIP: [Блокировки](blocking.md)
 - WIP: [Фильтрация (HAVING)](sql-and-db/postgresql/having.md)
@@ -506,8 +517,8 @@ https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 - WIP: [Процедурные функции](sql-and-db/postgresql/procedural-functions.md)
 - WIP: [Статистика содержимого таблиц (ANALYZE)](sql-and-db/postgresql/analyze.md)
 - WIP: [План выполнения (EXPLAIN)](sql-and-db/postgresql/explain.md)
-- [Освобождение пространства (VACUUM)](sql-and-db/postgresql/vacuum.md)
-- [Карта видимости](visibility-map.md)
+- [Освобождение пространства (VACUUM)](sql-and-db/postgresql/vacuum.md) - высвобождает пространство, занимаемое "мёртвыми" данными. При параметре ANALYZE обновляет статистику, которую использует планировщик.
+- [Карта видимости](visibility-map.md) - внутренние данные, в каких страницах есть только записи, видимые для всех активных и всех будущих транзакций.
 - WIP: [Оптимизация](sql-and-db/postgresql/optimization.md)
 
 ### MongoDB <a name="sql-and-db-mongodb"></a>

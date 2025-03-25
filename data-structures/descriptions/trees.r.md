@@ -1,6 +1,6 @@
-**[Структуры данных](../../README.md#data-structures) ::** 
+**[Структуры данных](../../README.md#data-structures) ::**
 **[Описание структур данных](../../README.md#data-structures-descriptions) ::**
-# B-дерево (B-tree, Balanced tree)
+# R-дерево (R-tree)
 
 <!--
 
