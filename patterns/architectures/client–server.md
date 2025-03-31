@@ -1,6 +1,6 @@
 **[Архитектура, паттерны, модели](../../README.md#patterns) ::** 
 **[Виды архитектур](../../README.md#patterns-architectures) ::**
-# Клиент—серверная архитектура (Client–Server Architecture)
+# Клиент-серверная архитектура (Client–Server Architecture)
 
 <!--
 

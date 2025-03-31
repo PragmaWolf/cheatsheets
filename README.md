@@ -96,7 +96,7 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 - WIP: [Конечный автомат](concepts/finite-state-machine.md)
 - WIP: [Рекурсия](concepts/recursion.md)
 - WIP: [Чистая функция](concepts/clean-function.md)
-- WIP: [Функции первого (высшего) класса (порядка)](concepts/first-order-functions.md)
+- **[Функции первого (высшего) класса (порядка)](concepts/first-order-functions.md)** - Принимает в качестве аргументов другие функции и/или возвращающая другую функцию в качестве результата.
 - WIP: [Класс](concepts/class.md)
 - WIP: [Прототип](concepts/prototype.md)
 - WIP: [Persistence (Устойчивость)](concepts/persistence.md)
@@ -104,8 +104,10 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 - WIP: [Без сохранения состояния (stateless)](concepts/stateless.md)
 - WIP: [Связность (связанность)](concepts/cohesion.md)
 - WIP: [Зацепление (Coupling)](concepts/coupling.md)
-- WIP: [Замыкание (Closure)](concepts/closure.md)
+- **[Замыкание (Closure)](concepts/closure.md)** - Функция ссылается на переменные, не содержащиеся в её теле.
 - WIP: [Каррирование (Carrining)](concepts/carrining.md)
+- **[Анонимная функция (Anonymous function)](concepts/anonymous-function.md)** - Объявляются в месте использования и не получают уникального идентификатора для доступа к ним.
+- **[Лямбда-выражение (Lambda expression)](concepts/lambda-expression.md)** - Специальный синтаксис для объявления анонимных функций.
 - WIP: [Признаки плохого проекта](concepts/bad-project.md)
 
 ---
@@ -282,7 +284,7 @@ Zero Trust архитектуру
 
 ### Виды архитектур <a name="patterns-architectures"></a>
 - WIP: [Гексагональная архитектура (Hexagonal Architecture)](patterns/architectures/hexagonal.md)
-- WIP: [Клиент—серверная архитектура (Client–Server Architecture)](patterns/architectures/client–server.md)
+- WIP: [Клиент-серверная архитектура (Client–Server Architecture)](patterns/architectures/client–server.md)
 - WIP: [Микролитная архитектура (Microlite architecture)](patterns/architectures/microlite.md)
 - WIP: [Микросервисная архитектура (Microservice architecture, MSA)](patterns/architectures/microservice.md)
 - WIP: [Микроядерная архитектура (Microkernel architecture)](patterns/architectures/microkernel.md)
@@ -564,7 +566,7 @@ https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 ## Языки программирования <a name="languages"></a>
 
 > [!TIP]
-> Работа программиста и шамана имеет много общего — оба бормочут непонятные слова, совершают непонятные действия и не могут объяснить, как оно работает.
+> Работа программиста и шамана имеет много общего - оба бормочут непонятные слова, совершают непонятные действия и не могут объяснить, как оно работает.
 
 ### JavaScript <a name="languages-javascript"></a>
 - [JavaScript: Цикл событий (Event loop) и libuv](languages/javascript/event-loop-and-libuv.md)
@@ -656,7 +658,7 @@ https://bool.dev/blog/detail/git-branching-strategies
 ## Управление персоналом <a name="management"></a>
 
 > [!TIP]
-> Один монитор — обычный программист, два монитора — продвинутый программист, три монитора — системный программист, четыре монитора — охранник.
+> Один монитор - обычный программист, два монитора - продвинутый программист, три монитора - системный программист, четыре монитора - охранник.
 
 - WIP: [Метрики сотрудников](management/employee-metrics.md)
 
