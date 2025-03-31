@@ -15,6 +15,10 @@ https://www.baeldung.com/cs/complexity-stack-queue-deque-set
 
 [К оглавлению](../README.md#algorithms)
 
-
+> [!WARNING]
+> Документ в работе. Скоро здесь появится описание.
 
 [К оглавлению](../README.md#algorithms)
+
+> [!IMPORTANT]
+> Если вы заметили ошибку, неточность, нехватку информации, пожалуйста, сообщите мне.

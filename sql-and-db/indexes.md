@@ -9,6 +9,10 @@ https://timeweb.cloud/tutorials/sql/indeksy-v-sql-sozdanie-vidy-i-kak-rabotayut
 
 [К оглавлению](../README.md#sql-and-db)
 
-
+> [!WARNING]
+> Документ в работе. Скоро здесь появится описание.
 
 [К оглавлению](../README.md#sql-and-db)
+
+> [!IMPORTANT]
+> Если вы заметили ошибку, неточность, нехватку информации, пожалуйста, сообщите мне.

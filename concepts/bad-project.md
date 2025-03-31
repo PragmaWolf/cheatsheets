@@ -7,6 +7,10 @@ https://backendinterview.ru/architecture/principles.html#%D0%9F%D1%80%D0%B8%D0%B
 
 [К оглавлению](../README.md#concepts)
 
-
+> [!WARNING]
+> Документ в работе. Скоро здесь появится описание.
 
 [К оглавлению](../README.md#concepts)
+
+> [!IMPORTANT]
+> Если вы заметили ошибку, неточность, нехватку информации, пожалуйста, сообщите мне.

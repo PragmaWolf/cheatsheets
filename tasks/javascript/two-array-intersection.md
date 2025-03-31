@@ -73,3 +73,6 @@ const intersection = (arrOne, arrTwo) => {
 ```
 
 [К оглавлению](../../README.md#tasks-javascript)
+
+> [!IMPORTANT]
+> Если вы заметили ошибку, неточность, нехватку информации, пожалуйста, сообщите мне.

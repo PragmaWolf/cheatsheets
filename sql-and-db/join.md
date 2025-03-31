@@ -12,6 +12,10 @@ https://timeweb.com/ru/community/articles/kak-rabotaet-sql-join
 
 [К оглавлению](../README.md#sql-and-db)
 
-
+> [!WARNING]
+> Документ в работе. Скоро здесь появится описание.
 
 [К оглавлению](../README.md#sql-and-db)
+
+> [!IMPORTANT]
+> Если вы заметили ошибку, неточность, нехватку информации, пожалуйста, сообщите мне.

@@ -75,3 +75,6 @@ console.log(checkBrackets(' (foo{[as]bar} ) ')); // true
 ```
 
 [К оглавлению](../../README.md#tasks-javascript)
+
+> [!IMPORTANT]
+> Если вы заметили ошибку, неточность, нехватку информации, пожалуйста, сообщите мне.

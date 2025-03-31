@@ -10,6 +10,10 @@ https://habr.com/ru/sandbox/186102/
 
 [К оглавлению](../../README.md#languages-typescript)
 
-
+> [!WARNING]
+> Документ в работе. Скоро здесь появится описание.
 
 [К оглавлению](../../README.md#languages-typescript)
+
+> [!IMPORTANT]
+> Если вы заметили ошибку, неточность, нехватку информации, пожалуйста, сообщите мне.
