@@ -57,43 +57,52 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%B3%D0%BC%D
 <!--
 https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82%D1%81%D0%BA%D0%B8%D1%85-%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D0%BD%D0%BE%D0%BC-%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5-8c2cb31fcda4
 -->
-- [Принцип DRY](concepts/dry.md) - Не повторяй свой код. Избегайте дублирования кода без острой необходимости.
-- [Принципы KISS](concepts/kiss.md) - Делай это проще. Разбивайте задачи на подзадачи. Делайте ваши классы и методы маленькими. Сначала придумайте решение задачи, потом напишите код. Не бойтесь избавляться от кода.
-- [Принципы SOLID](concepts/solid.md) - Cпособствует созданию такой системы, которую будет легко поддерживать и расширять в течение долгого времени.
+- **[Принцип DRY](concepts/dry.md)** - Не повторяй свой код. Избегайте дублирования кода без острой необходимости.
+- **[Принципы KISS](concepts/kiss.md)** - Делай это проще. Разбивайте задачи на подзадачи. Делайте ваши классы и методы маленькими. Сначала придумайте решение задачи, потом напишите код. Не бойтесь избавляться от кода.
+- **[Принципы SOLID](concepts/solid.md)** - Cпособствует созданию такой системы, которую будет легко поддерживать и расширять в течение долгого времени.
   - [S](concepts/solid.md#s) - Принцип единственной ответственности. Предлагает разделять универсальные классы на конкретные, что сделает их простыми и лёгкими в обслуживании.
   - [O](concepts/solid.md#o) - Принцип открытости/закрытости. Сущности должны быть открыты для расширения, но закрыты для модификации.
   - [L](concepts/solid.md#l) - Принцип подстановки Лисков. Производный класс должен сохранять все свойства базового класса и не изменять их семантику.
   - [I](concepts/solid.md#i) - Принцип разделения интерфейса. Слишком большие интерфейсы необходимо разделять на более маленькие и специфические.
   - [D](concepts/solid.md#d) - Принцип инверсии зависимостей. Модули верхнего уровня не должны зависеть от модулей нижнего уровня. Оба типа модулей должны зависеть от абстракций.
-- [Принципы YAGNI](concepts/yagni.md)
-- [Требования ACID](concepts/acid.md)
-- [Закон Деметры](concepts/lod.md)
-- [Подход MIT](concepts/mit.md)
-- [Подход "Чем хуже, тем лучше"](concepts/worse-is-better.md)
-- [Ковариантность и контрвариантность](concepts/covariance-and-contravariance.md)
-- [Иммутабельность](concepts/immutability.md)
+- **[Принципы YAGNI](concepts/yagni.md)** - Не стоит тратить силы на создание кода, который может понадобиться потом, так как "потом" может никогда не наступить.
+- **[Требования ACID](concepts/acid.md)** - Набор требований к транзакционной системе, обеспечивающий наиболее надёжную и предсказуемую её работу.
+  - [Атомарность](concepts/acid.md#atomicity) - Никакая транзакция не должна быть зафиксирована в системе частично.
+  - [Согласованность](concepts/acid.md#consistency) - Завершенная транзакция сохраняет согласованность базы данных.
+  - [Изоляция](concepts/acid.md#isolation) - Во время выполнения транзакции параллельные транзакции не должны оказывать влияния на её результат.
+  - [Устойчивость](concepts/acid.md#durability) - Независимо от проблем, изменения, сделанные успешно завершённой транзакцией, должны остаться сохранёнными.
+- **[Закон Деметры](concepts/lod.md)** - Можно вызывать только методы/переменные самого класса или методы и переменные класса переданного как зависимость.
+- **[Подход MIT](concepts/mit.md)** - Подход к разработке делающий упор на реализации, логичности и покрытию максимального количества важных ситуаций.
+- **[Подход "Чем хуже, тем лучше"](concepts/worse-is-better.md)** - Подход к разработке, объявляющий простоту реализации и интерфейса более важными, чем другие свойства системы.
+- **[Ковариантность и контрвариантность](concepts/covariance-and-contravariance.md)** - Способы переноса наследования типов на производные от них типы.
+  - [Ковариантность](concepts/covariance-and-contravariance.md#covariance) - Перенос наследования исходных типов на производные от них типы в прямом порядке.
+  - [Контравариантность](concepts/covariance-and-contravariance.md#contravariance) - Перенос наследования исходных типов на производные от них типы в обратном порядке.
+  - [Инвариантность](concepts/covariance-and-contravariance.md#invariance) - Наследование исходных типов не переносится на производные.
+- **[Иммутабельность](concepts/immutability.md)** - После создания данные или структура, которая их содержит, не могут быть изменены.
 - WIP: [Абстракция](concepts/abstraction.md)
 - WIP: [Инкапсуляция](concepts/encapsulation.md)
 - WIP: [Полиморфизм](concepts/polymorphism.md)
-- [Наследование](concepts/inheritance.md)
-- [Отношения IS-A](concepts/is-a.md)
-- [Отношения HAS-A](concepts/has-a.md)
-- [Ассоциация](concepts/association.md)
-- [Агрегирование](concepts/aggregation.md)
-- [Композиция](concepts/composition.md)
-- [Идемпотентность](concepts/idempotency.md)
-- [Реентерабельность](concepts/reentrant.md)
+- **[Наследование](concepts/inheritance.md)** - Когда дочерний класс наследуется от родительского класса, он приобретает все поведенческие характеристики родительского класса.
+- **[Отношения IS-A](concepts/is-a.md)** - Сокращенное описание "класс С является наследником/расширением/реализацией класса/интерфейса В" 
+- **[Отношения HAS-A](concepts/has-a.md)** - Сокращенное описание "класс В содержит параметр с экземпляром(-ами) класса С"
+- **[Ассоциация](concepts/association.md)** - Отношения между объектами, когда один объект может вызвать другой объект, чтобы выполнить действия от его имени.
+- **[Агрегирование](concepts/aggregation.md)** - Отношения между объектами, когда при создании нового объекта ему передаются уже существующие объекты.
+- **[Композиция](concepts/composition.md)** - Отношения между объектами, когда при создании нового объекта создаются все необходимые ему дополнительные объекты.
+- **[Идемпотентность](concepts/idempotency.md)** - Когда повторное применение операции или обращение к объекту будет давать тот же результат, что и при первом.
+- **[Реентерабельность](concepts/reentrant.md)** - Когда одна и та же копия инструкций программы может быть совместно использована несколькими пользователями или процессами.
 - WIP: [Конечный автомат](concepts/finite-state-machine.md)
 - WIP: [Рекурсия](concepts/recursion.md)
 - WIP: [Чистая функция](concepts/clean-function.md)
-- WIP: [Функции первого класса (порядка)](concepts/first-order-functions.md)
+- WIP: [Функции первого (высшего) класса (порядка)](concepts/first-order-functions.md)
 - WIP: [Класс](concepts/class.md)
 - WIP: [Прототип](concepts/prototype.md)
 - WIP: [Persistence (Устойчивость)](concepts/persistence.md)
 - WIP: [Сохранение состояния (statefull)](concepts/statefull.md)
 - WIP: [Без сохранения состояния (stateless)](concepts/stateless.md)
 - WIP: [Связность (связанность)](concepts/cohesion.md)
-- WIP: [Зацепление](concepts/coupling.md)
+- WIP: [Зацепление (Coupling)](concepts/coupling.md)
+- WIP: [Замыкание (Closure)](concepts/closure.md)
+- WIP: [Каррирование (Carrining)](concepts/carrining.md)
 - WIP: [Признаки плохого проекта](concepts/bad-project.md)
 
 ---
@@ -102,12 +111,12 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 > [!TIP]
 > Вот вы говорите "электронный документооборот". А вы знаете сколько из-за него ежегодно вырубают бинарных деревьев?
 
-- [Структуры данных](data-structures/data-structures.md)
-- [Простые структуры данных - типы данных](data-structures/simple-data-structures.md)
-- [Сложные (интегрированные) структуры данных:](data-structures/complex-data-structures.md)
-  - [Статические](data-structures/static.md)
-  - [Полустатические](data-structures/semi-static.md)
-  - [Динамические](data-structures/dynamic.md)
+- WIP: [Структуры данных](data-structures/data-structures.md)
+- **[Простые структуры данных - типы данных](data-structures/simple-data-structures.md)** - Примитивы, базовые элементы. Составная часть сложных структур данных.
+- **[Сложные (интегрированные) структуры данных:](data-structures/complex-data-structures.md)** - Состоят из примитивов или других структур данных.
+  - [Статические](data-structures/static.md) - Структурированное множество простых структур.
+  - [Полустатические](data-structures/semi-static.md) - Последовательность данных, связанная отношениями линейного списка.
+  - [Динамические](data-structures/dynamic.md) - Не обладают постоянным размером. Обеспечивает высокую изменчивость структуры.
   - [Линейные](data-structures/linear.md)
   - [Нелинейные](data-structures/nonlinear.md)
   - [Связные и несвязные](data-structures/coherent-and-incoherent.md)
@@ -115,11 +124,12 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 <!--
 https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D1%8F%D0%B7%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA
 https://www.bigocheatsheet.com/
+http://aisd-kubsau0.1gb.ru/lections/lect-kurs-isit/lect2_isit.html
 Деки - что за тип?
 -->
 ### Описание структур данных <a name="data-structures-descriptions"></a>
-- [Массивы (Arrays)](data-structures/descriptions/arrays.md)
-  - [Динамические массивы (Dynamic arrays)](data-structures/descriptions/arrays.dynamic.md)
+- [Массив (Array), Вектор (Vector), Матрица (Matrix)](data-structures/descriptions/arrays.md)
+  - [Динамический массив (Dynamic arrays)](data-structures/descriptions/arrays.dynamic.md)
   - [Ассоциативные массивы (Associative Arrays)](data-structures/descriptions/arrays.associative.md)
 - [Стеки (Stacks)](data-structures/descriptions/stacks.md)
 - [Очереди (Queues)](data-structures/descriptions/queues.md)
@@ -149,8 +159,8 @@ https://www.bigocheatsheet.com/
   - WIP: [K-мерные деревья (K-dimensional trees)](data-structures/descriptions/trees.k-dimensional.md)
   - WIP: [Префиксные деревья, Бор, Нагруженные деревья (Trie, Prefix Trees)](data-structures/descriptions/trees.trie.md)
 - [Кучи (Heaps)](data-structures/descriptions/heaps.md)
-- WIP: [Векторы (Vectors)](data-structures/descriptions/vectors.md)
-- WIP: [Записи (Records)](data-structures/descriptions/records.md)
+- [Запись (Record)](data-structures/descriptions/records.md)
+- [Кортеж (Tuple)](data-structures/descriptions/tuple.md)
 
 ---
 ## Алгоритмы <a name="algorithms"></a>
@@ -159,6 +169,7 @@ https://www.bigocheatsheet.com/
 > Вы никогда не задумывались, какое количество психических сил потрачено разработчиками на попытки понять различие между алгоритмом и программой...
 
 <!--
+http://aisd-kubsau0.1gb.ru/lections/lect-kurs-isit/lect2_isit.html
 https://sky.pro/wiki/python/osnovnye-algoritmy-v-programmirovanii/
 https://skillbox.ru/media/code/chto-takoe-algoritmy-i-kakimi-oni-byvayut/
 https://dtf.ru/u/868521-hypeway-studio/2081676-chto-takoe-algoritmy-programmirovaniya-osnovy-i-primenenie
@@ -263,6 +274,7 @@ https://systems.education/wis_ddd_architectural_patterns
 https://habr.com/ru/companies/alconost/articles/522662/
 https://habr.com/ru/articles/261171/
 12factor.net
+Zero Trust архитектуру
 -->
 
 ### Виды архитектур <a name="patterns-architectures"></a>
@@ -481,11 +493,11 @@ https://ru.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D
 - WIP: [Шардирование баз данных](sql-and-db/db-sharding.md)
 - WIP: [Типы баз данных](sql-and-db/types-of-db.md)
 - WIP: [Индексы](sql-and-db/indexes.md)
-- [Транзакции](sql-and-db/transactions.md)
-  - [Уровень изоляции Read uncommitted](sql-and-db/transactions.md#uncommitted) - Есть доступ к еще не подтвержденным завершением транзакции данным.
-  - [Уровень изоляции Read committed](sql-and-db/transactions.md#committed) - Есть доступ только к подтвержденным завершением транзакции данным.
-  - [Уровень изоляции Repeatable read или Snapshot isolation](sql-and-db/transactions.md#repeatable-read) - Есть доступ к сгнепшоту данных созданному в начале транзакции.
-  - [Уровень изоляции Serializable](sql-and-db/transactions.md#serializable) - Нет никакого доступа к данным до завершения транзакции.
+- [Транзакции](sql-and-db/transactions.md) - набор последовательных операций с базой данных, соединенных в одну логическую единицу
+  - [Уровень изоляции Read uncommitted](sql-and-db/transactions.md#uncommitted) - доступ к еще не подтвержденным завершением транзакции данным.
+  - [Уровень изоляции Read committed](sql-and-db/transactions.md#committed) - доступ только к подтвержденным завершением транзакции данным.
+  - [Уровень изоляции Repeatable read или Snapshot isolation](sql-and-db/transactions.md#repeatable-read) - доступ к снепшоту данных созданному в начале транзакции.
+  - [Уровень изоляции Serializable](sql-and-db/transactions.md#serializable) - никакого доступа к данным до завершения транзакции.
 - WIP: [Соединения с сопоставлениями строк (JOIN) ](sql-and-db/join.md) <!-- https://blog.skillfactory.ru/glossary/join-sql/  https://ru.hexlet.io/courses/complex-sql-queries/lessons/join/theory_unit  https://ru.wikipedia.org/wiki/Join_&#40;SQL&#41;  https://habr.com/ru/articles/655919/  https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions  https://postgrespro.ru/docs/postgrespro/9.5/tutorial-join -->
 
 ### PostgreSQL <a name="sql-and-db-postgresql"></a>
@@ -499,7 +511,7 @@ https://postgrespro.ru/docs/enterprise/9.6/atx
 https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 -->
 - WIP: [Типы данных](sql-and-db/postgresql/types.md)
-- WIP: [Индексы](sql-and-db/postgresql/indexes.md)
+- [Индексы](sql-and-db/postgresql/indexes.md)
   - [B-дерево (B-tree, Balanced tree)](sql-and-db/postgresql/indexes.md#b-tree)
   - [Хеш (Hash)](sql-and-db/postgresql/indexes.md#hash)
   - [GiST](sql-and-db/postgresql/indexes.md#gist)
@@ -520,6 +532,7 @@ https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 - [Освобождение пространства (VACUUM)](sql-and-db/postgresql/vacuum.md) - высвобождает пространство, занимаемое "мёртвыми" данными. При параметре ANALYZE обновляет статистику, которую использует планировщик.
 - [Карта видимости](visibility-map.md) - внутренние данные, в каких страницах есть только записи, видимые для всех активных и всех будущих транзакций.
 - WIP: [Оптимизация](sql-and-db/postgresql/optimization.md)
+- WIP: [Полезные приемы](sql-and-db/postgresql/usefull.md)
 
 ### MongoDB <a name="sql-and-db-mongodb"></a>
 - WIP: [Виды индексов](sql-and-db/mongodb/indexes.md)
@@ -584,6 +597,15 @@ https://habr.com/ru/companies/timeweb/articles/666470/
 [//]: # (- ingress)
 [//]: # (- daemonset)
 [//]: # (- configmap)
+
+## CI|CD <a name="cicd"></a>
+
+<!--
+https://habr.com/ru/companies/otus/articles/754422/
+https://www.jetbrains.com/ru-ru/teamcity/ci-cd-guide/
+-->
+[//]: # (- Blue-Green деплоймент)
+[//]: # (- Canary деплоймент)
 
 ---
 ## Мониторинги <a name="monitorings"></a>
