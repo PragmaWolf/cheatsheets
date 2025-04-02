@@ -28,28 +28,28 @@ JWT token - описать
 https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%B3%D0%BC%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F
 -->
 ### Основные модели <a name="paradigms-models"></a>
-- WIP: [Императивное программирование](paradigms/models/imperative.md)
 - WIP: [Декларативное программирование](paradigms/models/declarative.md)
-- WIP: [Структурное программирование](paradigms/models/structural.md)
-- WIP: [Функциональное программирование](paradigms/models/functional.md)
+- WIP: [Императивное программирование](paradigms/models/imperative.md)
 - WIP: [Логическое программирование](paradigms/models/logical.md)
 - WIP: [Объектно-ориентированное программирование (ООП)](paradigms/models/object-oriented.md)
   - WIP: [Компонентно-ориентированное программирование](paradigms/models/component-oriented.md)
   - WIP: [Прототипно-ориентированное программирование](paradigms/models/prototype-oriented.md)
   - WIP: [Агентно-ориентированное программирование](paradigms/models/agent-oriented.md)
+- WIP: [Структурное программирование](paradigms/models/structural.md)
+- WIP: [Функциональное программирование](paradigms/models/functional.md)
 - WIP: [Экстремальное программирование](paradigms/models/extreme.md)
 
 ### Подходы и приёмы <a name="paradigms-techniques"></a>
-- WIP: [Процедурное программирование](paradigms/techniques/procedural.md)
-- WIP: [Аппликативное программирование](paradigms/techniques/applicative.md)
-- WIP: [Обобщённое программирование](paradigms/techniques/generalized.md)
-- WIP: [Доказательное программирование](paradigms/techniques/evidential.md)
-- WIP: [Порождающее программирование](paradigms/techniques/generative.md)
-- WIP: [Аспектно-ориентированное программирование (АОП)](paradigms/techniques/aspect-oriented.md)
-- WIP: [Контрактное программирование](paradigms/techniques/contractual.md)
 - WIP: [Автоматное программирование](paradigms/techniques/automatic.md)
-- WIP: [Событийно-ориентированное программирование](paradigms/techniques/event-oriented.md)
+- WIP: [Аппликативное программирование](paradigms/techniques/applicative.md)
+- WIP: [Аспектно-ориентированное программирование (АОП)](paradigms/techniques/aspect-oriented.md)
 - WIP: [Грамотное программирование](paradigms/techniques/literate.md)
+- WIP: [Доказательное программирование](paradigms/techniques/evidential.md)
+- WIP: [Контрактное программирование](paradigms/techniques/contractual.md)
+- WIP: [Обобщённое программирование](paradigms/techniques/generalized.md)
+- WIP: [Порождающее программирование](paradigms/techniques/generative.md)
+- WIP: [Процедурное программирование](paradigms/techniques/procedural.md)
+- WIP: [Событийно-ориентированное программирование](paradigms/techniques/event-oriented.md)
 
 ---
 ## Концепции, понятия, термины <a name="concepts"></a>
@@ -60,6 +60,15 @@ https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%B3%D0%BC%D
 <!--
 https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82%D1%81%D0%BA%D0%B8%D1%85-%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D0%BD%D0%BE%D0%BC-%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5-8c2cb31fcda4
 -->
+
+- WIP: [Признаки плохого проекта](concepts/bad-project.md)
+
+### Правила <a name="concepts-rules"></a>
+- **[Требования ACID](concepts/acid.md)** - Набор требований к транзакционной системе, обеспечивающий наиболее надёжную и предсказуемую её работу.
+  - [Атомарность](concepts/acid.md#atomicity) - Никакая транзакция не должна быть зафиксирована в системе частично.
+  - [Изоляция](concepts/acid.md#isolation) - Во время выполнения транзакции параллельные транзакции не должны оказывать влияния на её результат.
+  - [Согласованность](concepts/acid.md#consistency) - Завершенная транзакция сохраняет согласованность базы данных.
+  - [Устойчивость](concepts/acid.md#durability) - Независимо от проблем, изменения, сделанные успешно завершённой транзакцией, должны остаться сохранёнными.
 - **[Принцип DRY](concepts/dry.md)** - Не повторяй свой код. Избегайте дублирования кода без острой необходимости.
 - **[Принципы KISS](concepts/kiss.md)** - Делай это проще. Разбивайте задачи на подзадачи. Делайте ваши классы и методы маленькими. Сначала придумайте решение задачи, потом напишите код. Не бойтесь избавляться от кода.
 - **[Принципы SOLID](concepts/solid.md)** - Cпособствует созданию такой системы, которую будет легко поддерживать и расширять в течение долгого времени.
@@ -69,46 +78,51 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
   - [I](concepts/solid.md#i) - Принцип разделения интерфейса. Слишком большие интерфейсы необходимо разделять на более маленькие и специфические.
   - [D](concepts/solid.md#d) - Принцип инверсии зависимостей. Модули верхнего уровня не должны зависеть от модулей нижнего уровня. Оба типа модулей должны зависеть от абстракций.
 - **[Принципы YAGNI](concepts/yagni.md)** - Не стоит тратить силы на создание кода, который может понадобиться потом, так как "потом" может никогда не наступить.
-- **[Требования ACID](concepts/acid.md)** - Набор требований к транзакционной системе, обеспечивающий наиболее надёжную и предсказуемую её работу.
-  - [Атомарность](concepts/acid.md#atomicity) - Никакая транзакция не должна быть зафиксирована в системе частично.
-  - [Согласованность](concepts/acid.md#consistency) - Завершенная транзакция сохраняет согласованность базы данных.
-  - [Изоляция](concepts/acid.md#isolation) - Во время выполнения транзакции параллельные транзакции не должны оказывать влияния на её результат.
-  - [Устойчивость](concepts/acid.md#durability) - Независимо от проблем, изменения, сделанные успешно завершённой транзакцией, должны остаться сохранёнными.
 - **[Закон Деметры](concepts/lod.md)** - Можно вызывать только методы/переменные самого класса или методы и переменные класса переданного как зависимость.
 - **[Подход MIT](concepts/mit.md)** - Подход к разработке делающий упор на реализации, логичности и покрытию максимального количества важных ситуаций.
 - **[Подход "Чем хуже, тем лучше"](concepts/worse-is-better.md)** - Подход к разработке, объявляющий простоту реализации и интерфейса более важными, чем другие свойства системы.
+
+### Отношения <a name="concepts-relations"></a>
+- **[Агрегирование (Aggregation)](concepts/aggregation.md)** - Отношения между объектами, когда при создании нового объекта ему передаются уже существующие объекты.
+- **[Ассоциация (Association)](concepts/association.md)** - Отношения между объектами, когда один объект может вызвать другой объект, чтобы выполнить действия от его имени.
 - **[Ковариантность и контрвариантность](concepts/covariance-and-contravariance.md)** - Способы переноса наследования типов на производные от них типы.
-  - [Ковариантность](concepts/covariance-and-contravariance.md#covariance) - Перенос наследования исходных типов на производные от них типы в прямом порядке.
-  - [Контравариантность](concepts/covariance-and-contravariance.md#contravariance) - Перенос наследования исходных типов на производные от них типы в обратном порядке.
-  - [Инвариантность](concepts/covariance-and-contravariance.md#invariance) - Наследование исходных типов не переносится на производные.
-- **[Иммутабельность](concepts/immutability.md)** - После создания данные или структура, которая их содержит, не могут быть изменены.
-- WIP: [Абстракция](concepts/abstraction.md)
-- WIP: [Инкапсуляция](concepts/encapsulation.md)
-- WIP: [Полиморфизм](concepts/polymorphism.md)
-- **[Наследование](concepts/inheritance.md)** - Когда дочерний класс наследуется от родительского класса, он приобретает все поведенческие характеристики родительского класса.
-- **[Отношения IS-A](concepts/is-a.md)** - Сокращенное описание "класс С является наследником/расширением/реализацией класса/интерфейса В" 
-- **[Отношения HAS-A](concepts/has-a.md)** - Сокращенное описание "класс В содержит параметр с экземпляром(-ами) класса С"
-- **[Ассоциация](concepts/association.md)** - Отношения между объектами, когда один объект может вызвать другой объект, чтобы выполнить действия от его имени.
-- **[Агрегирование](concepts/aggregation.md)** - Отношения между объектами, когда при создании нового объекта ему передаются уже существующие объекты.
-- **[Композиция](concepts/composition.md)** - Отношения между объектами, когда при создании нового объекта создаются все необходимые ему дополнительные объекты.
-- **[Идемпотентность](concepts/idempotency.md)** - Когда повторное применение операции или обращение к объекту будет давать тот же результат, что и при первом.
-- **[Реентерабельность](concepts/reentrant.md)** - Когда одна и та же копия инструкций программы может быть совместно использована несколькими пользователями или процессами.
-- WIP: [Конечный автомат](concepts/finite-state-machine.md)
-- WIP: [Рекурсия](concepts/recursion.md)
-- WIP: [Чистая функция](concepts/clean-function.md)
-- **[Функции первого (высшего) класса (порядка)](concepts/first-order-functions.md)** - Принимает в качестве аргументов другие функции и/или возвращающая другую функцию в качестве результата.
-- WIP: [Класс](concepts/class.md)
-- WIP: [Прототип](concepts/prototype.md)
-- WIP: [Persistence (Устойчивость)](concepts/persistence.md)
-- WIP: [Сохранение состояния (statefull)](concepts/statefull.md)
-- WIP: [Без сохранения состояния (stateless)](concepts/stateless.md)
-- WIP: [Связность (связанность)](concepts/cohesion.md)
-- WIP: [Зацепление (Coupling)](concepts/coupling.md)
+  - [Инвариантность (Invariance)](concepts/covariance-and-contravariance.md#invariance) - Наследование исходных типов не переносится на производные.
+  - [Ковариантность (Covariance)](concepts/covariance-and-contravariance.md#covariance) - Перенос наследования исходных типов на производные от них типы в прямом порядке.
+  - [Контравариантность (Contravariance)](concepts/covariance-and-contravariance.md#contravariance) - Перенос наследования исходных типов на производные от них типы в обратном порядке.
+- **[Композиция (Composition)](concepts/composition.md)** - Отношения между объектами, когда при создании нового объекта создаются все необходимые ему дополнительные объекты.
+- **[Наследование (Inheritance)](concepts/inheritance.md)** - Когда дочерний класс наследуется от родительского класса, он приобретает все поведенческие характеристики родительского класса.
+- **[Отношения HAS-A](concepts/has-a.md)** - Сокращенное описание "класс В содержит параметр с экземпляром(-ами) класса С".
+- **[Отношения IS-A](concepts/is-a.md)** - Сокращенное описание "класс С является наследником/расширением/реализацией класса/интерфейса В".
+
+### Функции, методы <a name="concepts-functions"></a>
+- **[Анонимная функция (Anonymous function)](concepts/anonymous-function.md)** - Объявляются в месте использования и не получают уникального идентификатора для доступа к ним.
 - **[Замыкание (Closure)](concepts/closure.md)** - Функция ссылается на переменные, не содержащиеся в её теле.
 - WIP: [Каррирование (Carrining)](concepts/carrining.md)
-- **[Анонимная функция (Anonymous function)](concepts/anonymous-function.md)** - Объявляются в месте использования и не получают уникального идентификатора для доступа к ним.
 - **[Лямбда-выражение (Lambda expression)](concepts/lambda-expression.md)** - Специальный синтаксис для объявления анонимных функций.
-- WIP: [Признаки плохого проекта](concepts/bad-project.md)
+- **[Мемоизация, Табулирование, Кэш (Memoization)](concepts/memoization.md)** - Сохранение результатов выполнения функций для предотвращения повторных вычислений.
+- WIP: [Перегрузка (Overload)](concepts/overload.md)
+- **[Рекурсия (Recursion)](concepts/recursion.md)** - Поведение функции, при котором она вызывает сама себя.
+- **[Функции первого (высшего) класса (порядка)](concepts/first-order-functions.md)** - Принимает в качестве аргументов другие функции и/или возвращающая другую функцию в качестве результата.
+- **[Чистая функция (Pure function)](concepts/pure-function.md)** - Зависит только от своих объявленных входных данных и своей реализации для получения результата.
+
+### Свойства <a name="concepts-properties"></a>
+- **[Абстракция](concepts/abstraction.md)** - Выделение общих характеристик объектов, их свойств и методов, без деталей реализации.
+- **[Идемпотентность](concepts/idempotency.md)** - Когда повторное применение операции или обращение к объекту будет давать тот же результат, что и при первом.
+- **[Иммутабельность](concepts/immutability.md)** - После создания данные или структура, которая их содержит, не могут быть изменены.
+- WIP: [Инкапсуляция](concepts/encapsulation.md)
+- WIP: [Полиморфизм](concepts/polymorphism.md)
+- **[Реентерабельность](concepts/reentrant.md)** - Когда одна и та же копия инструкций программы может быть совместно использована несколькими пользователями или процессами.
+
+### Прочее <a name="concepts-others"></a>
+- WIP: [Без сохранения состояния (Stateless)](concepts/stateless.md)
+- WIP: [Детерминирование (Determination)](concepts/determination.md)
+- WIP: [Зацепление (Coupling)](concepts/coupling.md)
+- WIP: [Класс (Class)](concepts/class.md)
+- WIP: [Конечный автомат (Finite-state machine, FSM)](concepts/finite-state-machine.md)
+- WIP: [Прототип (Prototype)](concepts/prototype.md)
+- WIP: [Связность|связанность (Cohesion)](concepts/cohesion.md)
+- WIP: [Сохранение состояния (Statefull)](concepts/statefull.md)
+- WIP: [Устойчивость (Persistence)](concepts/persistence.md)
 
 ---
 ## Структуры данных <a name="data-structures"></a>
@@ -687,12 +701,13 @@ https://habr.com/ru/articles/770522/
 1. [Найти пересечение двух массивов](tasks/javascript/two-array-intersection.md)
 1. [Очистить массив от повторов](tasks/javascript/clean-doubles-from-array.md)
 1. [Перевернуть строку](tasks/javascript/revert-string.md)
-1. [Порядок выполнения 1 (var)](tasks/javascript/execution-order-1.md)
-1. [Порядок выполнения 2 (Promise и setTimeout)](tasks/javascript/execution-order-2.md)
+1. [Порядок выполнения - 1 (var)](tasks/javascript/execution-order-1.md)
+1. [Порядок выполнения - 2 (Promise и setTimeout)](tasks/javascript/execution-order-2.md)
 1. [Проверить, является ли строка зеркальной](tasks/javascript/is-mirrored-string.md)
 1. [Проверить, является ли строка палиндромом](tasks/javascript/is-palindrome-string.md)
 1. [Проверка порядка скобок](tasks/javascript/check-brackets.md)
-1. [Что выведет функция (let)](tasks/javascript/what-output-let.md)
+1. [Что выведет функция - 1 (let)](tasks/javascript/what-output-1.md)
+1. [Что выведет функция - 2 (let)](tasks/javascript/what-output-2.md)
 
 ## SQL <a name="tasks-sql"></a>
 1. [Выборка дублирующихся записей](tasks/sql/search-doubles.md)
