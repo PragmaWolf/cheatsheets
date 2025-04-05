@@ -106,12 +106,12 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 - **[Чистая функция (Pure function)](concepts/functions/pure-function.md)** - Зависит только от своих объявленных входных данных и своей реализации для получения результата.
 
 ### Свойства <a name="concepts-properties"></a>
-- **[Абстракция](concepts/properties/abstraction.md)** - Выделение общих характеристик объектов, их свойств и методов, без деталей реализации.
-- **[Идемпотентность](concepts/properties/idempotency.md)** - Когда повторное применение операции или обращение к объекту будет давать тот же результат, что и при первом.
-- **[Иммутабельность](concepts/properties/immutability.md)** - После создания данные или структура, которая их содержит, не могут быть изменены.
-- WIP: [Инкапсуляция](concepts/properties/encapsulation.md)
-- WIP: [Полиморфизм](concepts/properties/polymorphism.md)
-- **[Реентерабельность](concepts/properties/reentrant.md)** - Когда одна и та же копия инструкций программы может быть совместно использована несколькими пользователями или процессами.
+- **[Абстракция (Abstraction)](concepts/properties/abstraction.md)** - Выделение общих характеристик объектов, их свойств и методов, без деталей реализации.
+- **[Идемпотентность (Idempotency)](concepts/properties/idempotency.md)** - Когда повторное применение операции или обращение к объекту будет давать тот же результат, что и при первом.
+- **[Иммутабельность (Immutability)](concepts/properties/immutability.md)** - После создания данные или структура, которая их содержит, не могут быть изменены.
+- WIP: [Инкапсуляция (Encapsulation)](concepts/properties/encapsulation.md)
+- WIP: [Полиморфизм (Polymorphism)](concepts/properties/polymorphism.md)
+- **[Реентерабельность (Reentrant)](concepts/properties/reentrant.md)** - Oдна и та же инструкция программы может быть совместно использована несколькими пользователями или процессами.
 
 ### Прочее <a name="concepts-others"></a>
 - WIP: [Без сохранения состояния (Stateless)](concepts/others/stateless.md)
@@ -480,7 +480,7 @@ https://docs.nestjs.com/
 - [Репозиторий (Repository)](patterns/design/others/repository.md)
 
 ---
-## Протоколы <a name="protocols"></a>
+## Протоколы и клиент-серверное взаимодействие <a name="protocols"></a>
 
 > [!TIP]
 > А ты не чувствуешь красоту мира?  
@@ -489,10 +489,14 @@ https://docs.nestjs.com/
 <!--
 https://ru.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%B4%D1%83%D1%80
 -->
-- WIP: [HTTP2](protocols/http2.md)
 - WIP: [HTTP](protocols/http.md)
+- WIP: [HTTP2 (HTTP/2, HTTP/2.0)](protocols/http2.md)
 - WIP: [TCP/IP](protocols/tcp-ip.md)
-- WIP: [WebSocket](protocols/websocket.md)
+- WIP: [TLS](protocols/tls.md)
+- WIP: [WebSocket](protocols/websocket.md) - Двусторонний обмен сообщениями между клиентом и сервером поверх ТСР соединения.
+- WIP: [События, посылаемые сервером (Server-Sent Events, SSE)](protocols/sse.md) - Односторонние сообщения от сервера к клиенту поверх HTTP соединения.
+- WIP: [Длинный опрос (Long Polling)](protocols/long-polling.md)
+- WIP: [Короткий опрос (Short Polling)](protocols/short-polling.md)
 - WIP: [Джиттер (Jitter)](protocols/jitter.md)
 - WIP: [Удалённый вызов процедур (Remote Procedure Call, RPC)](protocols/rpc.md)
   - WIP: [gRPC](protocols/grpc.md)
