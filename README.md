@@ -109,7 +109,7 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 - **[Абстракция (Abstraction)](concepts/properties/abstraction.md)** - Выделение общих характеристик объектов, их свойств и методов, без деталей реализации.
 - **[Идемпотентность (Idempotency)](concepts/properties/idempotency.md)** - Когда повторное применение операции или обращение к объекту будет давать тот же результат, что и при первом.
 - **[Иммутабельность (Immutability)](concepts/properties/immutability.md)** - После создания данные или структура, которая их содержит, не могут быть изменены.
-- WIP: [Инкапсуляция (Encapsulation)](concepts/properties/encapsulation.md)
+- **[Инкапсуляция (Encapsulation)](concepts/properties/encapsulation.md)** - Ограждает группу методов или данных от внешнего вмешательства или неправильного использования.
 - WIP: [Полиморфизм (Polymorphism)](concepts/properties/polymorphism.md)
 - **[Реентерабельность (Reentrant)](concepts/properties/reentrant.md)** - Oдна и та же инструкция программы может быть совместно использована несколькими пользователями или процессами.
 
@@ -125,12 +125,13 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 - WIP: [Устойчивость (Persistence)](concepts/others/persistence.md)
 
 ---
-## Структуры данных <a name="data-structures"></a>
+## Структуры и типы данных <a name="data-structures"></a>
 
 > [!TIP]
 > Вот вы говорите "электронный документооборот". А вы знаете сколько из-за него ежегодно вырубают бинарных деревьев?
 
 - WIP: [Структуры данных](data-structures/data-structures.md)
+- WIP: [Абстрактные типы данных](data-structures/abstract-data-types.md)
 - **[Простые структуры данных - типы данных](data-structures/simple-data-structures.md)** - Примитивы, базовые элементы. Составная часть сложных структур данных.
 - **[Сложные (интегрированные) структуры данных:](data-structures/complex-data-structures.md)** - Состоят из примитивов или других структур данных.
   - [Статические](data-structures/static.md) - Структурированное множество простых структур.
@@ -493,8 +494,8 @@ https://ru.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D
 - WIP: [HTTP2 (HTTP/2, HTTP/2.0)](protocols/http2.md)
 - WIP: [TCP/IP](protocols/tcp-ip.md)
 - WIP: [TLS](protocols/tls.md)
-- WIP: [WebSocket](protocols/websocket.md) - Двусторонний обмен сообщениями между клиентом и сервером поверх ТСР соединения.
-- WIP: [События, посылаемые сервером (Server-Sent Events, SSE)](protocols/sse.md) - Односторонние сообщения от сервера к клиенту поверх HTTP соединения.
+- [WebSocket](protocols/websocket.md) - Двусторонний обмен сообщениями между клиентом и сервером поверх ТСР соединения.
+- [События, посылаемые сервером (Server-Sent Events, SSE)](protocols/sse.md) - Односторонние сообщения от сервера к клиенту поверх HTTP соединения.
 - WIP: [Длинный опрос (Long Polling)](protocols/long-polling.md)
 - WIP: [Короткий опрос (Short Polling)](protocols/short-polling.md)
 - WIP: [Джиттер (Jitter)](protocols/jitter.md)
@@ -521,7 +522,7 @@ https://ru.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D
   - [Уровень изоляции Read committed](sql-and-db/transactions.md#committed) - доступ только к подтвержденным завершением транзакции данным.
   - [Уровень изоляции Repeatable read или Snapshot isolation](sql-and-db/transactions.md#repeatable-read) - доступ к снепшоту данных созданному в начале транзакции.
   - [Уровень изоляции Serializable](sql-and-db/transactions.md#serializable) - никакого доступа к данным до завершения транзакции.
-- WIP: [Соединения с сопоставлениями строк (JOIN) ](sql-and-db/join.md) <!-- https://blog.skillfactory.ru/glossary/join-sql/  https://ru.hexlet.io/courses/complex-sql-queries/lessons/join/theory_unit  https://ru.wikipedia.org/wiki/Join_&#40;SQL&#41;  https://habr.com/ru/articles/655919/  https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions  https://postgrespro.ru/docs/postgrespro/9.5/tutorial-join -->
+- WIP: [Соединения с сопоставлениями строк (JOIN) ](sql-and-db/join.md)
 
 ### PostgreSQL <a name="sql-and-db-postgresql"></a>
 <!--
@@ -552,8 +553,8 @@ https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 - WIP: [Процедурные функции](sql-and-db/postgresql/procedural-functions.md)
 - WIP: [Статистика содержимого таблиц (ANALYZE)](sql-and-db/postgresql/analyze.md)
 - WIP: [План выполнения (EXPLAIN)](sql-and-db/postgresql/explain.md)
-- [Освобождение пространства (VACUUM)](sql-and-db/postgresql/vacuum.md) - высвобождает пространство, занимаемое "мёртвыми" данными. При параметре ANALYZE обновляет статистику, которую использует планировщик.
-- [Карта видимости](visibility-map.md) - внутренние данные, в каких страницах есть только записи, видимые для всех активных и всех будущих транзакций.
+- [Освобождение пространства (VACUUM)](sql-and-db/postgresql/vacuum.md) - Высвобождает пространство, занимаемое "мёртвыми" данными. При параметре ANALYZE обновляет статистику, которую использует планировщик.
+- [Карта видимости](visibility-map.md) - Внутренние данные, в каких страницах есть только записи, видимые для всех активных и всех будущих транзакций.
 - WIP: [Оптимизация](sql-and-db/postgresql/optimization.md)
 - WIP: [Полезные приемы](sql-and-db/postgresql/usefull.md)
 
@@ -573,7 +574,7 @@ https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 
 ### RabbitMQ <a name="message-brokers-rabbitmq"></a>
 
-### Nuts <a name="message-brokers-nuts"></a>
+### Nats (Neural Autonomic Transport System) <a name="message-brokers-nats"></a>
 
 ### Kafka <a name="message-brokers-kafka"></a>
 [//]: # (- партиции,)
@@ -589,10 +590,6 @@ https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 ### JavaScript <a name="languages-javascript"></a>
 - [JavaScript: Цикл событий (Event loop) и libuv](languages/javascript/event-loop-and-libuv.md)
 - WIP: [JavaScript: Промисы (Promises)](languages/javascript/js-promises.md)
-<!--
-https://habr.com/ru/companies/timeweb/articles/663234
-https://habr.com/ru/companies/timeweb/articles/666470/
--->
 
 ### TypeScript <a name="languages-typescript"></a>
 - WIP: [Интерфейсы](languages/typescript/interfaces.md)
@@ -605,6 +602,10 @@ https://habr.com/ru/companies/timeweb/articles/666470/
 > Тяжелые времена порождают сильных программистов. Сильные программисты создают фреймворки. Фреймворки порождают слабых программистов. Слабые программисты порождают тяжелые времена.
 
 ### NestJs <a name="frameworks-nestjs"></a>
+<!--
+https://habr.com/ru/companies/timeweb/articles/663234
+https://habr.com/ru/companies/timeweb/articles/666470/
+-->
 
 ---
 ## DevOps <a name="devops"></a>
