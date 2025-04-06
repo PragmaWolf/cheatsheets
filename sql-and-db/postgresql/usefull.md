@@ -3,7 +3,7 @@
 # Полезные приемы
 
 <!--
-
+https://tproger.ru/translations/useful-postgresql-commands
 -->
 
 [К оглавлению](../../README.md#sql-and-db-postgresql)
