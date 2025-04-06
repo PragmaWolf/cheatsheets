@@ -69,6 +69,8 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
   - [Изоляция](concepts/rules/acid.md#isolation) - Во время выполнения транзакции параллельные транзакции не должны оказывать влияния на её результат.
   - [Согласованность](concepts/rules/acid.md#consistency) - Завершенная транзакция сохраняет согласованность базы данных.
   - [Устойчивость](concepts/rules/acid.md#durability) - Независимо от проблем, изменения, сделанные успешно завершённой транзакцией, должны остаться сохранёнными.
+- WIP: [Подход BASE](concepts/rules/base.md)
+- WIP: [Подход CAP](concepts/rules/cap.md)
 - **[Принцип DRY](concepts/rules/dry.md)** - Не повторяй свой код. Избегайте дублирования кода без острой необходимости.
 - **[Принципы KISS](concepts/rules/kiss.md)** - Делай это проще. Разбивайте задачи, сначала решение задачи, потом код. Делайте классы и методы маленькими. Не бойтесь избавляться от кода.
 - **[Принципы SOLID](concepts/rules/solid.md)** - Способствует созданию такой системы, которую будет легко поддерживать и расширять в течение долгого времени.
@@ -129,6 +131,15 @@ https://medium.com/nuances-of-programming/10-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B
 
 > [!TIP]
 > Вот вы говорите "электронный документооборот". А вы знаете сколько из-за него ежегодно вырубают бинарных деревьев?
+
+<!--
+https://www-datamation-com.translate.goog/big-data/data-structure/?_x_tr_sl=en&_x_tr_tl=ru&_x_tr_hl=ru&_x_tr_pto=rq#:~:text=Simple%20data%20structures%E2%80%94These%20build,may%20be%20linear%20or%20nonlinear.
+https://sky.pro/wiki/javascript/perechislyaemye-tipy-v-programmirovanii-sozdanie-primery-enum/
+https://practicum.yandex.ru/blog/10-osnovnyh-struktur-dannyh/
+https://habr.com/ru/companies/netologyru/articles/334914/
+https://blog.skillfactory.ru/glossary/struktura-dannyh/
+https://otus.ru/journal/klassifikaciya-struktur-dannyh/#%D0%9F%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%B5_%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85
+-->
 
 - WIP: [Структуры данных](data-structures/data-structures.md)
 - WIP: [Абстрактные типы данных](data-structures/abstract-data-types.md)
@@ -533,6 +544,8 @@ https://habr.com/ru/articles/860982/
 https://postgrespro.ru/docs/postgresql/13/plpgsql-transactions
 https://postgrespro.ru/docs/enterprise/9.6/atx
 https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
+https://habr.com/ru/companies/postgrespro/articles/326096/
+https://postgrespro.ru/docs/postgresql/9.6/indexes
 -->
 - WIP: [Типы данных](sql-and-db/postgresql/types.md)
 - **[Индексы](sql-and-db/postgresql/indexes.md)**
@@ -573,10 +586,27 @@ https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 > Люди, которые пишут всю свою мысль в одном большом сообщении, вы отбитые? Те кто по одному слову отправляет миллион сообщений - к вам вопросов нет. 
 
 ### RabbitMQ <a name="message-brokers-rabbitmq"></a>
+<!--
+https://timeweb.cloud/tutorials/microservices/populyarnye-brokery-soobshchenij
+https://habr.com/ru/articles/875330/
+-->
 
 ### Nats (Neural Autonomic Transport System) <a name="message-brokers-nats"></a>
+<!--
+https://www.dmosk.ru/miniinstruktions.php?mini=nats-server
+https://habr.com/ru/articles/874828/
+https://timeweb.cloud/tutorials/linux/ustanovka-i-nastrojka-nats
+https://habr.com/ru/companies/garage8/articles/708250/
+https://timeweb.cloud/tutorials/microservices/populyarnye-brokery-soobshchenij
+https://habr.com/ru/articles/875330/
+-->
 
 ### Kafka <a name="message-brokers-kafka"></a>
+<!--
+https://timeweb.cloud/tutorials/microservices/populyarnye-brokery-soobshchenij
+https://habr.com/ru/articles/875330/
+-->
+
 [//]: # (- партиции,)
 [//]: # (- не блокирующие обработки)
 [//]: # (- хертбиты &#40;хертбиты, хеартбиты&#41;)
@@ -605,6 +635,24 @@ https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 <!--
 https://habr.com/ru/companies/timeweb/articles/663234
 https://habr.com/ru/companies/timeweb/articles/666470/
+-->
+
+---
+## Low-code <a name="low-code"></a>
+
+### n8n <a name="low-code-n8n"></a>
+<!--
+https://habr.com/ru/companies/dockhost/articles/887820/
+https://habr.com/ru/companies/lanit/articles/529582/
+-->
+
+---
+## Нейросети <a name="neural-networks"></a>
+
+### AI IDE Cursor <a name="neural-networks-cursor"></a>
+<!--
+https://vc.ru/ai/1851619-cursor-ai-kak-pisat-kod-i-sozdavat-prilozheniya-s-pomoshyu-neiroseti
+https://habr.com/ru/companies/otus/articles/844866/
 -->
 
 ---
@@ -679,6 +727,9 @@ https://bool.dev/blog/detail/git-branching-strategies
 > [!TIP]
 > Один монитор - обычный программист, два монитора - продвинутый программист, три монитора - системный программист, четыре монитора - охранник.
 
+<!--
+https://agaltsovav.ru/docs/
+-->
 - WIP: [Метрики сотрудников](management/employee-metrics.md)
 
 [//]: # (- Фасилитация)
@@ -700,6 +751,27 @@ https://bool.dev/blog/detail/git-branching-strategies
 
 <!--
 https://habr.com/ru/articles/770522/
+https://github.com/Hexlet/ru-test-assignments
+https://otus.ru/journal/testy-po-js-na-sobesedovaniyah-v-google/
+https://uproger.com/spisok-realnyh-testovyh-zadanij-s-sobesedovanij-po-vsem-yazykam-programmirovaniya/
+https://freecode.academy/learn/sections
+https://itvdn.com/ru/blog/article/300-js
+http://www.itmathrepetitor.ru/backend-razrabotchik-na-javascript-stazher-testovoe-za/
+https://itproger.com/tests
+https://code.google.com/archive/p/jslibs/wikis/JavascriptTips.wiki
+https://learn.javascript.ru/quiz
+https://devby.io/news/voprosy-po-javascript-i-c-kotorye-neozhidanno-vyzyvayut-zatrudneniya-na-sobesedovaniyah
+https://habr.com/ru/articles/741108/
+https://purpleschool.ru/blog/pyat-zadach-dlya-javascript-razrabotchikov
+https://ifellow.ru/media-center/voprosy-i-zadachi-na-sobesedovanii-js-v-2024-godu/
+https://offer.engineerspock.com/obshhaya-informacziya/10-tasks-on-js/
+https://thecode.media/9-js-questions/
+https://tproger.ru/problems/sobesedovanie-na-poziciju-middle-javascript-razrabotchika-primery-zadach-i-neobhodimye-znanija
+https://vc.ru/dev/981129-top-5-zadach-na-sobesedovaniyah-po-javascript-razbor-i-reshenie
+https://pikabu.ru/story/zadachi_na_sobesedovanii_javascript_razrabotchika_9851088
+https://medium.com/@t4rg4rnen/%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9-js-579327722bab
+https://codesandbox.io/p/sandbox/js-sobes-98fdp3
+https://github.com/dobernike/Interview-tasks
 -->
 
 ## JavaScript <a name="tasks-javascript"></a>
