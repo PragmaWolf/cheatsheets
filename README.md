@@ -148,22 +148,22 @@ http://aisd-kubsau0.1gb.ru/lections/lect-kurs-isit/lect2_isit.html
 Деки - что за тип?
 -->
 ### Описание структур данных <a name="data-structures-descriptions"></a>
-- [Массив (Array), Вектор (Vector), Матрица (Matrix)](data-structures/descriptions/arrays.md)
+- **[Массив (Array), Вектор (Vector), Матрица (Matrix)](data-structures/descriptions/arrays.md)**
   - [Динамический массив (Dynamic arrays)](data-structures/descriptions/arrays.dynamic.md)
   - [Ассоциативные массивы (Associative Arrays)](data-structures/descriptions/arrays.associative.md)
-- [Стеки (Stacks)](data-structures/descriptions/stacks.md)
-- [Очереди (Queues)](data-structures/descriptions/queues.md)
-- [Списки (Lists)](data-structures/descriptions/lists.md)
+- **[Стеки (Stacks)](data-structures/descriptions/stacks.md)**
+- **[Очереди (Queues)](data-structures/descriptions/queues.md)**
+- **[Списки (Lists)](data-structures/descriptions/lists.md)**
   - WIP: [Односвязнный (однонаправленный) список (Single-linked list)](data-structures/descriptions/lists.single-linked.md)
   - WIP: [Двусвязнный (двунаправленный) список (Double-linked list)](data-structures/descriptions/lists.double-linked.md)
   - WIP: [Кольцевой связный список (Ring linked list)](data-structures/descriptions/lists.ring-linked.md)
   - WIP: [Развёрнутый связный список (Expanded linked list)](data-structures/descriptions/lists.expanded-linked.md)
   - WIP: [Список с пропусками (Skip List)](data-structures/descriptions/lists.skip.md)
   - WIP: [XOR-связный список (XOR linked list)](data-structures/descriptions/lists.xor-linked.md)
-- [Хэш-таблицы, Хэш-мапы (Hash tables, Hash Maps)](data-structures/descriptions/hash-maps.md)
-- [Множества, Хэш-сеты (Sets, Hash Sets)](data-structures/descriptions/hash-sets.md)
-- [Карты, Словари (Maps, Dictionaries)](data-structures/descriptions/maps.md)
-- [Графы (Graphs)](data-structures/descriptions/graphs.md)
+- **[Хэш-таблицы, Хэш-мапы (Hash tables, Hash Maps)](data-structures/descriptions/hash-maps.md)**
+- **[Множества, Хэш-сеты (Sets, Hash Sets)](data-structures/descriptions/hash-sets.md)**
+- **[Карты, Словари (Maps, Dictionaries)](data-structures/descriptions/maps.md)**
+- **[Графы (Graphs)](data-structures/descriptions/graphs.md)**
 - WIP: [Деревья (Trees)](data-structures/descriptions/trees.md)
   - WIP: [Бинарное дерево (Binary tree)](data-structures/descriptions/trees.binary.md)
   - WIP: [Бинарное дерево поиска (Binary search tree)](data-structures/descriptions/trees.binary-search.md)
@@ -178,9 +178,9 @@ http://aisd-kubsau0.1gb.ru/lections/lect-kurs-isit/lect2_isit.html
   - WIP: [Деревья квадрантов (Quadrant trees)](data-structures/descriptions/trees.quadrant.md)
   - WIP: [K-мерные деревья (K-dimensional trees)](data-structures/descriptions/trees.k-dimensional.md)
   - WIP: [Префиксные деревья, Бор, Нагруженные деревья (Trie, Prefix Trees)](data-structures/descriptions/trees.trie.md)
-- [Кучи (Heaps)](data-structures/descriptions/heaps.md)
-- [Запись (Record)](data-structures/descriptions/records.md)
-- [Кортеж (Tuple)](data-structures/descriptions/tuple.md)
+- **[Кучи (Heaps)](data-structures/descriptions/heaps.md)**
+- **[Запись (Record)](data-structures/descriptions/records.md)**
+- **[Кортеж (Tuple)](data-structures/descriptions/tuple.md)**
 
 ---
 ## Алгоритмы <a name="algorithms"></a>
@@ -330,7 +330,7 @@ https://tproger.ru/translations/top-5-arhitekturnyh-patternov-dlja-raspredeljonn
 https://systems.education/wis_ddd_architectural_patterns
 https://habr.com/ru/companies/alconost/articles/522662/
 -->
-- [Внедрение зависимостей (Dependency Injection, DI)](patterns/architectural/di.md)
+- **[Внедрение зависимостей (Dependency Injection, DI)](patterns/architectural/di.md)**
 - WIP: [Делегирование (Delegation)](patterns/architectural/delegation.md)
 - WIP: [Душитель (Strangler Fig)](patterns/architectural/strangler-fig.md)
 - WIP: [Иерархические Модель-Представление-Контроллер (Hierarchical model–view–controller, HMVC)](patterns/architectural/hmvc.md)
@@ -430,7 +430,7 @@ Gangs of Four (GoF) Design Patterns
 **G**eneral **R**esponsibility **A**ssignment **S**oftware **P**atterns. Шаблоны проектирования, используемые для решения общих задач по назначению обязанностей классам и объектам. Описано девять GRAPS шаблонов. Паттерны не имеют выраженной структуры, четкой области применения и конкретной решаемой проблемы, а лишь представляют собой обобщенные подходы/рекомендации/принципы, используемые при проектировании дизайна системы. Это распределение ролей и ответственностей между всеми объектами, а также свойства, которыми эти объекты должны обладать для того, чтобы гармонично исполнять свои роли.
 
 - WIP: [GRASP: Высокое зацепление (High Cohesion)](patterns/design/grasp/high-cohesion.md)
-- [GRASP: Информационный эксперт (Information Expert)](patterns/design/grasp/information-expert.md)
+- **[GRASP: Информационный эксперт (Information Expert)](patterns/design/grasp/information-expert.md)**
 - WIP: [GRASP: Контроллер (Controller)](patterns/design/grasp/controller.md)
 - WIP: [GRASP: Низкая связанность (Low Coupling)](patterns/design/grasp/low-coupling.md)
 - WIP: [GRASP: Перенаправление (Indirection)](patterns/design/grasp/indirection.md)
@@ -475,10 +475,10 @@ https://gist.github.com/maestrow/594fd9aee859c809b043
 https://habr.com/ru/articles/316836/
 https://docs.nestjs.com/
 -->
-- [Ленивая загрузка (Lazy Load)](patterns/design/others/lazy-load.md)
-- [Поставщик/потребитель (Producer/Consumer)](patterns/design/others/producer-consumer.md)
-- [Преобразователь данных (Data Mapper)](patterns/design/others/data-mapper.md)
-- [Репозиторий (Repository)](patterns/design/others/repository.md)
+- WIP: [Ленивая загрузка (Lazy Load)](patterns/design/others/lazy-load.md)
+- WIP: [Поставщик/потребитель (Producer/Consumer)](patterns/design/others/producer-consumer.md)
+- WIP: [Преобразователь данных (Data Mapper)](patterns/design/others/data-mapper.md)
+- WIP: [Репозиторий (Repository)](patterns/design/others/repository.md)
 
 ---
 ## Протоколы и клиент-серверное взаимодействие <a name="protocols"></a>
@@ -494,8 +494,8 @@ https://ru.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D
 - WIP: [HTTP2 (HTTP/2, HTTP/2.0)](protocols/http2.md)
 - WIP: [TCP/IP](protocols/tcp-ip.md)
 - WIP: [TLS](protocols/tls.md)
-- [WebSocket](protocols/websocket.md) - Двусторонний обмен сообщениями между клиентом и сервером поверх ТСР соединения.
-- [События, посылаемые сервером (Server-Sent Events, SSE)](protocols/sse.md) - Односторонние сообщения от сервера к клиенту поверх HTTP соединения.
+- **[WebSocket](protocols/websocket.md)** - Двусторонний обмен сообщениями между клиентом и сервером поверх ТСР соединения.
+- **[События, посылаемые сервером (Server-Sent Events, SSE)](protocols/sse.md)** - Односторонние сообщения от сервера к клиенту поверх HTTP соединения.
 - WIP: [Длинный опрос (Long Polling)](protocols/long-polling.md)
 - WIP: [Короткий опрос (Short Polling)](protocols/short-polling.md)
 - WIP: [Джиттер (Jitter)](protocols/jitter.md)
@@ -517,7 +517,7 @@ https://ru.wikipedia.org/wiki/%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D
 - WIP: [Шардирование баз данных](sql-and-db/db-sharding.md)
 - WIP: [Типы баз данных](sql-and-db/types-of-db.md)
 - WIP: [Индексы](sql-and-db/indexes.md)
-- [Транзакции](sql-and-db/transactions.md) - набор последовательных операций с базой данных, соединенных в одну логическую единицу
+- **[Транзакции](sql-and-db/transactions.md)** - набор последовательных операций с базой данных, соединенных в одну логическую единицу
   - [Уровень изоляции Read uncommitted](sql-and-db/transactions.md#uncommitted) - доступ к еще не подтвержденным завершением транзакции данным.
   - [Уровень изоляции Read committed](sql-and-db/transactions.md#committed) - доступ только к подтвержденным завершением транзакции данным.
   - [Уровень изоляции Repeatable read или Snapshot isolation](sql-and-db/transactions.md#repeatable-read) - доступ к снепшоту данных созданному в начале транзакции.
@@ -535,7 +535,7 @@ https://postgrespro.ru/docs/enterprise/9.6/atx
 https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 -->
 - WIP: [Типы данных](sql-and-db/postgresql/types.md)
-- [Индексы](sql-and-db/postgresql/indexes.md)
+- **[Индексы](sql-and-db/postgresql/indexes.md)**
   - [B-дерево (B-tree, Balanced tree)](sql-and-db/postgresql/indexes.md#b-tree)
   - [Хеш (Hash)](sql-and-db/postgresql/indexes.md#hash)
   - [GiST](sql-and-db/postgresql/indexes.md#gist)
@@ -553,8 +553,8 @@ https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 - WIP: [Процедурные функции](sql-and-db/postgresql/procedural-functions.md)
 - WIP: [Статистика содержимого таблиц (ANALYZE)](sql-and-db/postgresql/analyze.md)
 - WIP: [План выполнения (EXPLAIN)](sql-and-db/postgresql/explain.md)
-- [Освобождение пространства (VACUUM)](sql-and-db/postgresql/vacuum.md) - Высвобождает пространство, занимаемое "мёртвыми" данными. При параметре ANALYZE обновляет статистику, которую использует планировщик.
-- [Карта видимости](visibility-map.md) - Внутренние данные, в каких страницах есть только записи, видимые для всех активных и всех будущих транзакций.
+- **[Освобождение пространства (VACUUM)](sql-and-db/postgresql/vacuum.md)** - Высвобождает пространство, занимаемое "мёртвыми" данными. При параметре ANALYZE обновляет статистику, которую использует планировщик.
+- **[Карта видимости](visibility-map.md)** - Внутренние данные, в каких страницах есть только записи, видимые для всех активных и всех будущих транзакций.
 - WIP: [Оптимизация](sql-and-db/postgresql/optimization.md)
 - WIP: [Полезные приемы](sql-and-db/postgresql/usefull.md)
 
@@ -588,7 +588,7 @@ https://postgrespro.ru/docs/postgresql/9.6/queries-table-expressions
 > Работа программиста и шамана имеет много общего - оба бормочут непонятные слова, совершают непонятные действия и не могут объяснить, как оно работает.
 
 ### JavaScript <a name="languages-javascript"></a>
-- [JavaScript: Цикл событий (Event loop) и libuv](languages/javascript/event-loop-and-libuv.md)
+- **[JavaScript: Цикл событий (Event loop) и libuv](languages/javascript/event-loop-and-libuv.md)**
 - WIP: [JavaScript: Промисы (Promises)](languages/javascript/js-promises.md)
 
 ### TypeScript <a name="languages-typescript"></a>
